@@ -1,0 +1,23 @@
+# Crop Circles ingestion pipeline — Python deps
+# Tested on Python 3.11+; should work on Pi OS Bookworm (ARM64).
+
+# HTTP + parsing
+httpx[http2]>=0.27
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Database (psycopg3 + pool; direct Postgres, not PostgREST)
+psycopg[binary,pool]>=3.2
+python-dotenv>=1.0
+
+# Reliability / observability
+tenacity>=9.0
+structlog>=24.1
+tqdm>=4.66
+
+# Image hashing — used in the dedup pass
+Pillow>=10.0
+imagehash>=4.3
+
+# Phase 2 LLM extraction
+anthropic>=0.40
