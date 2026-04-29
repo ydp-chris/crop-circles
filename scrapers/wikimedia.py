@@ -59,8 +59,10 @@ CC_OK_RE = re.compile(
     re.IGNORECASE,
 )
 LANDMARK_RE = re.compile(
-    r"\bnear\s+([A-Z][A-Za-z\-\']+(?:\s+[A-Z][A-Za-z\-\']+){0,2})",
-    re.IGNORECASE,
+    # "near Avebury, Wiltshire" — require a region suffix to filter out prose like
+    # "near the Great Serpent" or "near a road"; the trailing "[A-Z]" anchors a
+    # second capitalized word, which acts as a poor-man's region check.
+    r"\bnear\s+(?P<place>[A-Z][A-Za-z\-\']+(?:\s+[A-Z][A-Za-z\-\']+){0,2})\s*,\s+[A-Z]"
 )
 
 
@@ -230,7 +232,7 @@ def parse_landmark(extmd: dict[str, Any]) -> Optional[str]:
     if not desc:
         return None
     m = LANDMARK_RE.search(desc)
-    return m.group(1) if m else None
+    return m.group("place") if m else None
 
 
 def parse_license(
