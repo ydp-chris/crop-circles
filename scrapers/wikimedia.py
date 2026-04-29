@@ -58,6 +58,14 @@ CC_OK_RE = re.compile(
     r"(cc[-_ ]?by|cc[-_ ]?sa|cc[-_ ]?0|public[-_ ]?domain|publicdomain)",
     re.IGNORECASE,
 )
+
+# Titles that masquerade as formations but are UI/diagram assets in the
+# Commons "Crop_circles" category. Discovered when 16 Nicolas Mollet map
+# marker icons polluted the 2011-02-25 cluster.
+NON_FORMATION_TITLE_RE = re.compile(
+    r"map marker icon|\b(?:logo|symbol|infographic|chart|svg flag)\b",
+    re.IGNORECASE,
+)
 LANDMARK_RE = re.compile(
     # "near Avebury, Wiltshire" — require a region suffix to filter out prose like
     # "near the Great Serpent" or "near a road"; the trailing "[A-Z]" anchors a
@@ -275,6 +283,11 @@ def process_page(page: dict[str, Any], dry_run: bool = False) -> str:
     title = page.get("title")
     if pageid is None or not title:
         return "failed"
+
+    if NON_FORMATION_TITLE_RE.search(title):
+        # UI / diagram assets that share the Crop_circles category but
+        # aren't real formations.
+        return "skip"
 
     source_record_id = f"pageid:{pageid}"
     if not dry_run and already_scraped(SLUG, source_record_id):
