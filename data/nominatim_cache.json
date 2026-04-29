@@ -1,0 +1,4385 @@
+{
+  "AR|Carmen de Arceo, Buenos Aires, Argentina": {
+    "fetched_at": 1777494170.7040832,
+    "results": []
+  },
+  "AR|Chicoana, Sala, Argentina": {
+    "fetched_at": 1777494166.2493458,
+    "results": []
+  },
+  "AR|Chicoana, Salta, Argentina": {
+    "fetched_at": 1777494163.6357384,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AR-A",
+          "country": "Argentina",
+          "country_code": "ar",
+          "state": "Salta",
+          "state_district": "Chicoana"
+        },
+        "addresstype": "state_district",
+        "boundingbox": [
+          "-25.3179791",
+          "-25.0194910",
+          "-65.8851972",
+          "-65.2583113"
+        ],
+        "class": "boundary",
+        "display_name": "Chicoana, Salta, Argentina",
+        "importance": 0.3457604669057869,
+        "lat": "-25.1683955",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-65.5735838",
+        "name": "Chicoana",
+        "osm_id": 3059844,
+        "osm_type": "relation",
+        "place_id": 4464776,
+        "place_rank": 10,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AR|Del Campillo, Cordoba, Argentina": {
+    "fetched_at": 1777494162.511781,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AR-X",
+          "country": "Argentina",
+          "country_code": "ar",
+          "county": "Pedan\u00eda Necochea",
+          "municipality": "Municipio de Del Campillo",
+          "postcode": "X6275",
+          "state": "C\u00f3rdoba",
+          "state_district": "Departamento General Roca",
+          "village": "Del Campillo"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "-34.3820953",
+          "-34.3689607",
+          "-64.5018530",
+          "-64.4904953"
+        ],
+        "class": "boundary",
+        "display_name": "Del Campillo, Municipio de Del Campillo, Pedan\u00eda Necochea, Departamento General Roca, C\u00f3rdoba, X6275, Argentina",
+        "importance": 0.19619210675062,
+        "lat": "-34.3788599",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-64.4970497",
+        "name": "Del Campillo",
+        "osm_id": 5229059,
+        "osm_type": "relation",
+        "place_id": 1308914,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AR|Las Perdices, C\u00f3rdoba, Argentina": {
+    "fetched_at": 1777494164.7589302,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AR-X",
+          "city_district": "Municipio de Las Perdices",
+          "country": "Argentina",
+          "country_code": "ar",
+          "postcode": "5921",
+          "state": "C\u00f3rdoba",
+          "state_district": "Departamento Tercero Arriba",
+          "village": "Las Perdices"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "-32.7103465",
+          "-32.6882321",
+          "-63.7225678",
+          "-63.6947809"
+        ],
+        "class": "boundary",
+        "display_name": "Las Perdices, Municipio de Las Perdices, Pedan\u00eda Punta del Agua, Departamento Tercero Arriba, C\u00f3rdoba, 5921, Argentina",
+        "importance": 0.18671666819256882,
+        "lat": "-32.6993173",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-63.7051586",
+        "name": "Las Perdices",
+        "osm_id": 4166757,
+        "osm_type": "relation",
+        "place_id": 16649012,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AR|Malabrigo, Santa Fe, Argentina": {
+    "fetched_at": 1777494169.1432552,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AR-S",
+          "country": "Argentina",
+          "country_code": "ar",
+          "state": "Santa Fe",
+          "state_district": "Departamento General Obligado",
+          "village": "Municipio de Malabrigo"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "-29.4147858",
+          "-29.2236853",
+          "-60.0682820",
+          "-59.7730948"
+        ],
+        "class": "boundary",
+        "display_name": "Municipio de Malabrigo, Departamento General Obligado, Santa Fe, Argentina",
+        "importance": 0.23468656939839805,
+        "lat": "-29.3489728",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-59.9700883",
+        "name": "Municipio de Malabrigo",
+        "osm_id": 4271461,
+        "osm_type": "relation",
+        "place_id": 5840125,
+        "place_rank": 14,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AR|Necochea, Buenos Aires, Argentina": {
+    "fetched_at": 1777494167.6954532,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AR-B",
+          "country": "Argentina",
+          "country_code": "ar",
+          "state": "Buenos Aires",
+          "state_district": "Partido de Necochea",
+          "town": "Necochea"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "-38.6131281",
+          "-38.5183453",
+          "-58.8267990",
+          "-58.6967488"
+        ],
+        "class": "boundary",
+        "display_name": "Necochea, Partido de Necochea, Buenos Aires, Argentina",
+        "importance": 0.47503364976731977,
+        "lat": "-38.5545494",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-58.7392624",
+        "name": "Necochea",
+        "osm_id": 3406343,
+        "osm_type": "relation",
+        "place_id": 18722421,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AT|D\u00f6rnbach, Nieder\u00f6sterreich, Austria": {
+    "fetched_at": 1777494172.0157743,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AT-3",
+          "city": "Wienerwald",
+          "country": "\u00d6sterreich",
+          "country_code": "at",
+          "county": "Bezirk M\u00f6dling",
+          "postcode": "2392",
+          "state": "Nieder\u00f6sterreich",
+          "village": "Dornbach"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "48.0635003",
+          "48.1035003",
+          "16.1145012",
+          "16.1545012"
+        ],
+        "class": "place",
+        "display_name": "Dornbach, Wienerwald, Bezirk M\u00f6dling, Nieder\u00f6sterreich, 2392, \u00d6sterreich",
+        "importance": 0.14671416723887995,
+        "lat": "48.0835003",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "16.1345012",
+        "name": "Dornbach",
+        "osm_id": 240097397,
+        "osm_type": "node",
+        "place_id": 187579995,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "AT|Mistelbach, Lower Austria, Austria": {
+    "fetched_at": 1777494176.395644,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AT-3",
+          "country": "\u00d6sterreich",
+          "country_code": "at",
+          "county": "Bezirk Mistelbach",
+          "state": "Nieder\u00f6sterreich",
+          "town": "Mistelbach"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "48.5134260",
+          "48.6562530",
+          "16.4747074",
+          "16.7015837"
+        ],
+        "class": "boundary",
+        "display_name": "Mistelbach, Bezirk Mistelbach, Nieder\u00f6sterreich, \u00d6sterreich",
+        "importance": 0.4682003033122911,
+        "lat": "48.5694535",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "16.5720327",
+        "name": "Mistelbach",
+        "osm_id": 107342,
+        "osm_type": "relation",
+        "place_id": 174194332,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AT|Thomasroith, Ober\u00f6sterreich, Austria": {
+    "fetched_at": 1777494173.5924838,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AT-4",
+          "country": "\u00d6sterreich",
+          "country_code": "at",
+          "county": "Bezirk V\u00f6cklabruck",
+          "postcode": "4901",
+          "state": "Ober\u00f6sterreich",
+          "village": "Thomasroith"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "48.0617379",
+          "48.1017379",
+          "13.5976441",
+          "13.6376441"
+        ],
+        "class": "place",
+        "display_name": "Thomasroith, Ottnang am Hausruck, Bezirk V\u00f6cklabruck, Ober\u00f6sterreich, 4901, \u00d6sterreich",
+        "importance": 0.14671742656595707,
+        "lat": "48.0817379",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "13.6176441",
+        "name": "Thomasroith",
+        "osm_id": 240053976,
+        "osm_type": "node",
+        "place_id": 130683763,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "AT|Zwettl, Nieder\u00f6sterreich, Austria": {
+    "fetched_at": 1777494175.0628865,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AT-3",
+          "country": "\u00d6sterreich",
+          "country_code": "at",
+          "county": "Bezirk Zwettl",
+          "river": "Zwettl",
+          "state": "Nieder\u00f6sterreich"
+        },
+        "addresstype": "river",
+        "boundingbox": [
+          "48.5567033",
+          "48.6357099",
+          "14.7899727",
+          "15.1689527"
+        ],
+        "class": "waterway",
+        "display_name": "Zwettl, Bezirk Zwettl, Nieder\u00f6sterreich, \u00d6sterreich",
+        "importance": 0.41093751640421666,
+        "lat": "48.6020820",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "14.9851629",
+        "name": "Zwettl",
+        "osm_id": 2216854,
+        "osm_type": "relation",
+        "place_id": 130226887,
+        "place_rank": 18,
+        "type": "river"
+      }
+    ]
+  },
+  "AU|Ben Nevis District, Victoria, Australia": {
+    "fetched_at": 1777494182.8051753,
+    "results": []
+  },
+  "AU|Boorowa, New South Wales, Australia": {
+    "fetched_at": 1777494179.2683172,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AU-NSW",
+          "country": "Australia",
+          "country_code": "au",
+          "locality": "Boorowa",
+          "municipality": "Hilltops Council",
+          "postcode": "2586",
+          "state": "New South Wales"
+        },
+        "addresstype": "locality",
+        "boundingbox": [
+          "-34.5720217",
+          "-34.1511460",
+          "148.5536221",
+          "148.9394000"
+        ],
+        "class": "boundary",
+        "display_name": "Boorowa, Hilltops Council, New South Wales, 2586, Australia",
+        "importance": 0.33490418538826533,
+        "lat": "-34.4385643",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "148.7188286",
+        "name": "Boorowa",
+        "osm_id": 6074483,
+        "osm_type": "relation",
+        "place_id": 19894889,
+        "place_rank": 18,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AU|Conondale, Queensland, Australia": {
+    "fetched_at": 1777494177.7904756,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AU-QLD",
+          "city_district": "Conondale",
+          "country": "Australia",
+          "country_code": "au",
+          "postcode": "4552",
+          "state": "Queensland"
+        },
+        "addresstype": "city_district",
+        "boundingbox": [
+          "-26.8166290",
+          "-26.6698390",
+          "152.5821160",
+          "152.7778390"
+        ],
+        "class": "boundary",
+        "display_name": "Conondale, Queensland, 4552, Australia",
+        "importance": 0.32363080181052895,
+        "lat": "-26.7433680",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "152.6710401",
+        "name": "Conondale",
+        "osm_id": 11675281,
+        "osm_type": "relation",
+        "place_id": 27540452,
+        "place_rank": 18,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AU|Hunter Valley, New South Wales, Australia": {
+    "fetched_at": 1777494181.0194695,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AU-NSW",
+          "country": "Australia",
+          "country_code": "au",
+          "state": "New South Wales",
+          "valley": "Hunter Valley"
+        },
+        "addresstype": "valley",
+        "boundingbox": [
+          "-32.9856274",
+          "-31.9055403",
+          "150.6513970",
+          "151.9779955"
+        ],
+        "class": "natural",
+        "display_name": "Hunter Valley, New South Wales, Australia",
+        "importance": 0.10671335851071943,
+        "lat": "-32.4506783",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "150.9262410",
+        "name": "Hunter Valley",
+        "osm_id": 1390603808,
+        "osm_type": "way",
+        "place_id": 407981852,
+        "place_rank": 22,
+        "type": "valley"
+      }
+    ]
+  },
+  "AU|Narromine, New South Wales, Australia": {
+    "fetched_at": 1777494185.7681274,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AU-NSW",
+          "country": "Australia",
+          "country_code": "au",
+          "municipality": "Narromine Shire Council",
+          "state": "New South Wales"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-32.6920953",
+          "-31.7713727",
+          "147.4947076",
+          "148.4568970"
+        ],
+        "class": "boundary",
+        "display_name": "Narromine Shire Council, New South Wales, Australia",
+        "importance": 0.42418037968838074,
+        "lat": "-32.2317016",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "147.9528517",
+        "name": "Narromine Shire Council",
+        "osm_id": 6271676,
+        "osm_type": "relation",
+        "place_id": 23093472,
+        "place_rank": 12,
+        "type": "administrative"
+      }
+    ]
+  },
+  "AU|Tilba, New South Wales, Australia": {
+    "fetched_at": 1777494184.369005,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "AU-NSW",
+          "city": "Bathurst",
+          "country": "Australia",
+          "country_code": "au",
+          "farm": "Tilba",
+          "house_number": "937",
+          "municipality": "Bathurst Regional Council",
+          "postcode": "2795",
+          "state": "New South Wales"
+        },
+        "addresstype": "farm",
+        "boundingbox": [
+          "-33.4238541",
+          "-33.4038541",
+          "149.4850218",
+          "149.5050218"
+        ],
+        "class": "place",
+        "display_name": "Tilba, 937, Bathurst, Bathurst Regional Council, New South Wales, 2795, Australia",
+        "importance": 0.10672480430304415,
+        "lat": "-33.4138541",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "149.4950218",
+        "name": "Tilba",
+        "osm_id": 3361172302,
+        "osm_type": "node",
+        "place_id": 19203553,
+        "place_rank": 22,
+        "type": "farm"
+      }
+    ]
+  },
+  "BA|Ljubuski, Zapadnohercegovacki, Bosnia and Herzegovina": {
+    "fetched_at": 1777494187.0739856,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BA-BIH",
+          "country": "Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+          "country_code": "ba",
+          "county": "Grad Ljubu\u0161ki",
+          "postcode": "88320",
+          "state": "Federacija Bosne i Hercegovine",
+          "state_district": "\u017dupanija zapadnohercegova\u010dka",
+          "town": "Ljubu\u0161ki"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "43.1563022",
+          "43.2363022",
+          "17.5047857",
+          "17.5847857"
+        ],
+        "class": "place",
+        "display_name": "Ljubu\u0161ki, Grad Ljubu\u0161ki, \u017dupanija zapadnohercegova\u010dka, Federacija Bosne i Hercegovine, 88320, Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+        "importance": 0.5064696496953022,
+        "lat": "43.1963022",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "17.5447857",
+        "name": "Ljubu\u0161ki",
+        "osm_id": 5970431386,
+        "osm_type": "node",
+        "place_id": 51737635,
+        "place_rank": 18,
+        "type": "town"
+      }
+    ]
+  },
+  "BA|\u010citlu, Herzegovina-Neretva, Bosnia and Herzegovina": {
+    "fetched_at": 1777494188.5289273,
+    "results": []
+  },
+  "BE|Aalst, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494212.648038,
+    "results": []
+  },
+  "BE|Betrix, Wallonie, Belgium": {
+    "fetched_at": 1777494222.883094,
+    "results": []
+  },
+  "BE|Bierbeek, Flemish Brabant, Belgium": {
+    "fetched_at": 1777494225.6904845,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-VLG",
+          "ISO3166-2-lvl6": "BE-VBR",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Leuven",
+          "municipality": "Bierbeek",
+          "postcode": "3360",
+          "state": "Vlaams-Brabant"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "50.7881429",
+          "50.8756492",
+          "4.6912334",
+          "4.8194503"
+        ],
+        "class": "boundary",
+        "display_name": "Bierbeek, Leuven, Vlaams-Brabant, Vlaanderen, 3360, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.4789903552801327,
+        "lat": "50.8319724",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.7747499",
+        "name": "Bierbeek",
+        "osm_id": 415952,
+        "osm_type": "relation",
+        "place_id": 398712681,
+        "place_rank": 14,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Brussegem, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494205.4115775,
+    "results": []
+  },
+  "BE|Bruxelles, Belgium": {
+    "fetched_at": 1777494224.2389576,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-BRU",
+          "city": "Bruxelles - Brussel",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
+          "region": "R\u00e9gion de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest"
+        },
+        "addresstype": "city",
+        "boundingbox": [
+          "50.7963454",
+          "50.9139045",
+          "4.3137681",
+          "4.4370662"
+        ],
+        "class": "boundary",
+        "display_name": "Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, R\u00e9gion de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.7402455933272529,
+        "lat": "50.8467372",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.3524930",
+        "name": "Bruxelles - Brussel",
+        "osm_id": 58274,
+        "osm_type": "relation",
+        "place_id": 95204691,
+        "place_rank": 14,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Daal, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494202.5758588,
+    "results": []
+  },
+  "BE|Denderhoutem, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494203.993523,
+    "results": []
+  },
+  "BE|Erpe-Mere, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494221.4220567,
+    "results": []
+  },
+  "BE|Freloux, Li\u00e8ge, Belgium": {
+    "fetched_at": 1777494211.2659502,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WLG",
+          "city_district": "Freloux",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Waremme",
+          "postcode": "4347",
+          "state": "Li\u00e8ge",
+          "village": "Fexhe-le-Haut-Clocher"
+        },
+        "addresstype": "city_district",
+        "boundingbox": [
+          "50.6727610",
+          "50.6918017",
+          "5.3902101",
+          "5.4273189"
+        ],
+        "class": "boundary",
+        "display_name": "Freloux, Fexhe-le-Haut-Clocher, Waremme, Li\u00e8ge, Wallonie, 4347, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.18672230487525746,
+        "lat": "50.6822289",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.4076753",
+        "name": "Freloux",
+        "osm_id": 19968630,
+        "osm_type": "relation",
+        "place_id": 104289943,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Gavere, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494206.9395676,
+    "results": []
+  },
+  "BE|Genval, Brabant, Belgium": {
+    "fetched_at": 1777494191.4157922,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WBR",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Nivelles",
+          "postcode": "1332",
+          "state": "Brabant wallon",
+          "town": "Rixensart",
+          "village": "Genval"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "50.7099615",
+          "50.7326543",
+          "4.4772720",
+          "4.5255717"
+        ],
+        "class": "boundary",
+        "display_name": "Genval, Rixensart, Nivelles, Brabant wallon, Wallonie, 1332, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.3708703066864196,
+        "lat": "50.7220137",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.5029938",
+        "name": "Genval",
+        "osm_id": 3482783,
+        "osm_type": "relation",
+        "place_id": 105767396,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Haalert, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494197.024388,
+    "results": []
+  },
+  "BE|Haaltert, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494194.381423,
+    "results": []
+  },
+  "BE|Haaltert, Osst-Vlanderen, Belgium": {
+    "fetched_at": 1777494208.4513319,
+    "results": []
+  },
+  "BE|Hoezekouterdreef, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494201.1019175,
+    "results": []
+  },
+  "BE|Itterbeek, Brabant, Belgium": {
+    "fetched_at": 1777494199.8578696,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-VLG",
+          "ISO3166-2-lvl6": "BE-VBR",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Halle-Vilvoorde",
+          "postcode": "1701",
+          "state": "Vlaams-Brabant",
+          "town": "Dilbeek",
+          "village": "Itterbeek"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "50.8126188",
+          "50.8477500",
+          "4.2149710",
+          "4.2553176"
+        ],
+        "class": "boundary",
+        "display_name": "Itterbeek, Dilbeek, Halle-Vilvoorde, Vlaams-Brabant, Vlaanderen, 1701, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.3514206354333152,
+        "lat": "50.8395994",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.2501187",
+        "name": "Itterbeek",
+        "osm_id": 4012644,
+        "osm_type": "relation",
+        "place_id": 105678624,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Kessel-Lo, Brabant, Belgium": {
+    "fetched_at": 1777494214.0647101,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-VLG",
+          "ISO3166-2-lvl6": "BE-VBR",
+          "city": "Leuven",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Leuven",
+          "postcode": "3010",
+          "state": "Vlaams-Brabant",
+          "village": "Kessel-Lo"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "50.8702806",
+          "50.9091649",
+          "4.7090251",
+          "4.7704248"
+        ],
+        "class": "boundary",
+        "display_name": "Kessel-Lo, Leuven, Vlaams-Brabant, Vlaanderen, 3010, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.41240105293225454,
+        "lat": "50.8852456",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.7313734",
+        "name": "Kessel-Lo",
+        "osm_id": 3921611,
+        "osm_type": "relation",
+        "place_id": 105371688,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Kessel-Ro, Brabant, Belgium": {
+    "fetched_at": 1777494192.879018,
+    "results": []
+  },
+  "BE|Lamine, Wallonie, Belgium": {
+    "fetched_at": 1777494217.049741,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WLG",
+          "city_district": "Lamine",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Waremme",
+          "postcode": "4350",
+          "state": "Li\u00e8ge",
+          "village": "Remicourt"
+        },
+        "addresstype": "city_district",
+        "boundingbox": [
+          "50.6785377",
+          "50.6964386",
+          "5.3163399",
+          "5.3575636"
+        ],
+        "class": "boundary",
+        "display_name": "Lamine, Remicourt, Waremme, Li\u00e8ge, Wallonie, 4350, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.18672185778591588,
+        "lat": "50.6874832",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.3368496",
+        "name": "Lamine",
+        "osm_id": 19960152,
+        "osm_type": "relation",
+        "place_id": 425263746,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Momalle, Li\u00e8ge, Belgium": {
+    "fetched_at": 1777494209.8566568,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WLG",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Waremme",
+          "hamlet": "Momelette",
+          "postcode": "4350",
+          "railway": "Momalle",
+          "road": "Rue Joseph D\u00e9sir",
+          "state": "Li\u00e8ge",
+          "village": "Momalle"
+        },
+        "addresstype": "railway",
+        "boundingbox": [
+          "50.6699875",
+          "50.6700875",
+          "5.3668982",
+          "5.3669982"
+        ],
+        "class": "railway",
+        "display_name": "Momalle, Rue Joseph D\u00e9sir, Momelette, Momalle, Remicourt, Waremme, Li\u00e8ge, Wallonie, 4350, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.2946949388609965,
+        "lat": "50.6700375",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.3669482",
+        "name": "Momalle",
+        "osm_id": 5650206942,
+        "osm_type": "node",
+        "place_id": 104346565,
+        "place_rank": 30,
+        "type": "halt"
+      }
+    ]
+  },
+  "BE|Momalle, Wallonie, Belgium": {
+    "fetched_at": 1777494218.469428,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WLG",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Waremme",
+          "hamlet": "Momelette",
+          "postcode": "4350",
+          "railway": "Momalle",
+          "road": "Rue Joseph D\u00e9sir",
+          "state": "Li\u00e8ge",
+          "village": "Momalle"
+        },
+        "addresstype": "railway",
+        "boundingbox": [
+          "50.6699875",
+          "50.6700875",
+          "5.3668982",
+          "5.3669982"
+        ],
+        "class": "railway",
+        "display_name": "Momalle, Rue Joseph D\u00e9sir, Momelette, Momalle, Remicourt, Waremme, Li\u00e8ge, Wallonie, 4350, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.2946949388609965,
+        "lat": "50.6700375",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.3669482",
+        "name": "Momalle",
+        "osm_id": 5650206942,
+        "osm_type": "node",
+        "place_id": 104346565,
+        "place_rank": 30,
+        "type": "halt"
+      }
+    ]
+  },
+  "BE|Nieuwerkerken, Limburg, Belgium": {
+    "fetched_at": 1777494195.6285512,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-VLG",
+          "ISO3166-2-lvl6": "BE-VLI",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Hasselt",
+          "postcode": "3850",
+          "state": "Limburg",
+          "village": "Nieuwerkerken"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "50.8517620",
+          "50.9103257",
+          "5.1484329",
+          "5.2635885"
+        ],
+        "class": "boundary",
+        "display_name": "Nieuwerkerken, Hasselt, Limburg, Vlaanderen, 3850, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.44813098313920746,
+        "lat": "50.8651623",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.1938478",
+        "name": "Nieuwerkerken",
+        "osm_id": 1245883,
+        "osm_type": "relation",
+        "place_id": 105378372,
+        "place_rank": 14,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Oleye, Wallonie, Belgium": {
+    "fetched_at": 1777494219.9879086,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WLG",
+          "city_district": "Oleye",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Waremme",
+          "postcode": "4300",
+          "state": "Li\u00e8ge",
+          "town": "Waremme"
+        },
+        "addresstype": "city_district",
+        "boundingbox": [
+          "50.7068639",
+          "50.7290350",
+          "5.2574030",
+          "5.2952297"
+        ],
+        "class": "boundary",
+        "display_name": "Oleye, Waremme, Li\u00e8ge, Wallonie, 4300, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.1867248073548485,
+        "lat": "50.7181210",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "5.2779517",
+        "name": "Oleye",
+        "osm_id": 19921116,
+        "osm_type": "relation",
+        "place_id": 424595393,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BE|Villers-La-Ville, Oost-Vlanderen, Belgium": {
+    "fetched_at": 1777494198.534198,
+    "results": []
+  },
+  "BE|Wamont, Vlaams Gewest, Belgium": {
+    "fetched_at": 1777494215.5705492,
+    "results": []
+  },
+  "BE|Waterloo, Brabant, Belgium": {
+    "fetched_at": 1777494190.0232275,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BE-WAL",
+          "ISO3166-2-lvl6": "BE-WBR",
+          "city_district": "Waterloo",
+          "country": "Belgi\u00eb / Belgique / Belgien",
+          "country_code": "be",
+          "county": "Nivelles",
+          "postcode": "1410",
+          "state": "Brabant wallon",
+          "town": "Waterloo"
+        },
+        "addresstype": "city_district",
+        "boundingbox": [
+          "50.6706279",
+          "50.7359165",
+          "4.3549831",
+          "4.4413224"
+        ],
+        "class": "boundary",
+        "display_name": "Waterloo, Nivelles, Brabant wallon, Wallonie, 1410, Belgi\u00eb / Belgique / Belgien",
+        "importance": 0.5228397540413009,
+        "lat": "50.7032864",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "4.4084276",
+        "name": "Waterloo",
+        "osm_id": 17099832,
+        "osm_type": "relation",
+        "place_id": 105645271,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BG|Sofia, Sofia City Province, Bulgaria": {
+    "fetched_at": 1777494227.144921,
+    "results": []
+  },
+  "BR|Bom Jesus, Santa Catarina State, Brazil": {
+    "fetched_at": 1777494237.5742729,
+    "results": []
+  },
+  "BR|Chopinzinho, Parana, Brazil": {
+    "fetched_at": 1777494244.6266735,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-PR",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Chopinzinho",
+          "postcode": "85560-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Paran\u00e1"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-25.9440000",
+          "-25.6435508",
+          "-52.7250000",
+          "-52.2126935"
+        ],
+        "class": "boundary",
+        "display_name": "Chopinzinho, Paran\u00e1, Regi\u00e3o Sul, 85560-000, Brasil",
+        "importance": 0.50113820047889,
+        "lat": "-25.8566167",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.5294107",
+        "name": "Chopinzinho",
+        "osm_id": 297697,
+        "osm_type": "relation",
+        "place_id": 6703853,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Faxinal Dos Guedes, Santa Catarina, Brazil": {
+    "fetched_at": 1777494233.0703523,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Faxinal dos Guedes",
+          "postcode": "89694-000",
+          "region": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-26.9757448",
+          "-26.7128842",
+          "-52.3659146",
+          "-52.1231237"
+        ],
+        "class": "boundary",
+        "display_name": "Faxinal dos Guedes, Regi\u00e3o Geogr\u00e1fica Imediata de Xanxer\u00ea, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3, Santa Catarina, Regi\u00e3o Sul, 89694-000, Brasil",
+        "importance": 0.48189203920926627,
+        "lat": "-26.8494222",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.2586485",
+        "name": "Faxinal dos Guedes",
+        "osm_id": 296578,
+        "osm_type": "relation",
+        "place_id": 5733533,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Formosa Do Sul, Santa Catarina, Brazil": {
+    "fetched_at": 1777494234.538507,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Formosa do Sul",
+          "postcode": "89859-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-26.6861684",
+          "-26.5870000",
+          "-52.8540000",
+          "-52.7270000"
+        ],
+        "class": "boundary",
+        "display_name": "Formosa do Sul, Santa Catarina, Regi\u00e3o Sul, 89859-000, Brasil",
+        "importance": 0.4825978077388109,
+        "lat": "-26.6478829",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.7934366",
+        "name": "Formosa do Sul",
+        "osm_id": 296504,
+        "osm_type": "relation",
+        "place_id": 6511068,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Icara, Santa Catarina, Brazil": {
+    "fetched_at": 1777494243.2258809,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "I\u00e7ara",
+          "region": "Regi\u00e3o Sul",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-28.8651278",
+          "-28.6705349",
+          "-49.3569468",
+          "-49.1726418"
+        ],
+        "class": "boundary",
+        "display_name": "I\u00e7ara, Santa Catarina, Regi\u00e3o Sul, Brasil",
+        "importance": 0.48350000845088287,
+        "lat": "-28.7116553",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-49.2971441",
+        "name": "I\u00e7ara",
+        "osm_id": 296752,
+        "osm_type": "relation",
+        "place_id": 7779229,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Ipuacu, Rio Grande do Sul, Brazil": {
+    "fetched_at": 1777494228.5608242,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-RS",
+          "country": "Brasil",
+          "country_code": "br",
+          "postcode": "98440-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Rio Grande do Sul",
+          "suburb": "Ipua\u00e7u",
+          "village": "Cai\u00e7ara"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "-27.2554978",
+          "-27.1725047",
+          "-53.6006740",
+          "-53.4965944"
+        ],
+        "class": "boundary",
+        "display_name": "Ipua\u00e7u, Cai\u00e7ara, Rio Grande do Sul, Regi\u00e3o Sul, 98440-000, Brasil",
+        "importance": 0.1600563767452506,
+        "lat": "-27.2130019",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-53.5487144",
+        "name": "Ipua\u00e7u",
+        "osm_id": 7845388,
+        "osm_type": "relation",
+        "place_id": 6493348,
+        "place_rank": 18,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Ipuacu, Santa Catarina State, Brazil": {
+    "fetched_at": 1777494240.3432543,
+    "results": []
+  },
+  "BR|Ipuacu, Santa Catarina, Brazil": {
+    "fetched_at": 1777494241.8090358,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Ipua\u00e7u",
+          "postcode": "89832-000",
+          "region": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-26.8084502",
+          "-26.5664541",
+          "-52.5765395",
+          "-52.3860000"
+        ],
+        "class": "boundary",
+        "display_name": "Ipua\u00e7u, Regi\u00e3o Geogr\u00e1fica Imediata de Xanxer\u00ea, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3, Santa Catarina, Regi\u00e3o Sul, 89832-000, Brasil",
+        "importance": 0.47640824077676125,
+        "lat": "-26.6349873",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.4555915",
+        "name": "Ipua\u00e7u",
+        "osm_id": 296624,
+        "osm_type": "relation",
+        "place_id": 6000673,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Ipua\u00e7u, Santa Catarina, Brazil": {
+    "fetched_at": 1777494247.6340115,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Ipua\u00e7u",
+          "postcode": "89832-000",
+          "region": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-26.8084502",
+          "-26.5664541",
+          "-52.5765395",
+          "-52.3860000"
+        ],
+        "class": "boundary",
+        "display_name": "Ipua\u00e7u, Regi\u00e3o Geogr\u00e1fica Imediata de Xanxer\u00ea, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3, Santa Catarina, Regi\u00e3o Sul, 89832-000, Brasil",
+        "importance": 0.47640824077676125,
+        "lat": "-26.6349873",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.4555915",
+        "name": "Ipua\u00e7u",
+        "osm_id": 296624,
+        "osm_type": "relation",
+        "place_id": 6000673,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Linha Bela Vista, Santa Catarina, Brazil": {
+    "fetched_at": 1777494250.6450593,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "hamlet": "Linha Bela Vista",
+          "postcode": "85520-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Santa Catarina",
+          "town": "S\u00e3o Louren\u00e7o do Oeste"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "-26.4090733",
+          "-26.3690733",
+          "-52.8970597",
+          "-52.8570597"
+        ],
+        "class": "place",
+        "display_name": "Linha Bela Vista, S\u00e3o Louren\u00e7o do Oeste, Santa Catarina, Regi\u00e3o Sul, 85520-000, Brasil",
+        "importance": 0.1333890981918059,
+        "lat": "-26.3890733",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.8770597",
+        "name": "Linha Bela Vista",
+        "osm_id": 6219759149,
+        "osm_type": "node",
+        "place_id": 6464219,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "BR|Linha Ronda, Paran\u00e1, Brazil": {
+    "fetched_at": 1777494246.1661446,
+    "results": []
+  },
+  "BR|Ouro Verde, Santa Catarina State, Brazil": {
+    "fetched_at": 1777494239.0731266,
+    "results": []
+  },
+  "BR|Ouro Verde, Santa Catarina, Brazil": {
+    "fetched_at": 1777494231.5933883,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Ouro Verde",
+          "postcode": "89834-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-26.7788861",
+          "-26.6439662",
+          "-52.3710108",
+          "-52.1783388"
+        ],
+        "class": "boundary",
+        "display_name": "Ouro Verde, Santa Catarina, Regi\u00e3o Sul, 89834-000, Brasil",
+        "importance": 0.4937000641613864,
+        "lat": "-26.6941871",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.3103928",
+        "name": "Ouro Verde",
+        "osm_id": 296581,
+        "osm_type": "relation",
+        "place_id": 6469310,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Prudent\u00f3polis, Paran\u00e1, Brazil": {
+    "fetched_at": 1777494249.1055183,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-PR",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Prudent\u00f3polis",
+          "postcode": "84400-000",
+          "region": "Regi\u00e3o Sul",
+          "state": "Paran\u00e1"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-25.5175509",
+          "-24.7527565",
+          "-51.4106004",
+          "-50.7810000"
+        ],
+        "class": "boundary",
+        "display_name": "Prudent\u00f3polis, Paran\u00e1, Regi\u00e3o Sul, 84400-000, Brasil",
+        "importance": 0.5085156959641381,
+        "lat": "-25.2033580",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-50.9895774",
+        "name": "Prudent\u00f3polis",
+        "osm_id": 297719,
+        "osm_type": "relation",
+        "place_id": 6332515,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "BR|Sobradinho, Distrito Federal do Brasil, Brazil": {
+    "fetched_at": 1777494235.803735,
+    "results": []
+  },
+  "BR|Xanxere, Santa Catarina, Brazil": {
+    "fetched_at": 1777494230.006884,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "BR-SC",
+          "country": "Brasil",
+          "country_code": "br",
+          "municipality": "Xanxer\u00ea",
+          "region": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3",
+          "state": "Santa Catarina"
+        },
+        "addresstype": "municipality",
+        "boundingbox": [
+          "-27.0120620",
+          "-26.7490000",
+          "-52.5339689",
+          "-52.2949535"
+        ],
+        "class": "boundary",
+        "display_name": "Xanxer\u00ea, Regi\u00e3o Geogr\u00e1fica Imediata de Xanxer\u00ea, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Chapec\u00f3, Santa Catarina, Regi\u00e3o Sul, Brasil",
+        "importance": 0.4834383275391418,
+        "lat": "-26.8748603",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-52.4035964",
+        "name": "Xanxer\u00ea",
+        "osm_id": 296714,
+        "osm_type": "relation",
+        "place_id": 5771087,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|All Cannings, nr Stanton St Bernard, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494277.6973557,
+    "results": []
+  },
+  "GB|Allington Down - nr Stanton St.Bernard, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494363.0971062,
+    "results": []
+  },
+  "GB|Alton Barnes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494302.4157686,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 4LE",
+          "state": "England",
+          "village": "Alton Barnes"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3369678",
+          "51.3769678",
+          "-1.8701972",
+          "-1.8301972"
+        ],
+        "class": "place",
+        "display_name": "Alton Barnes, Wiltshire, England, SN8 4LE, United Kingdom",
+        "importance": 0.07194870560319186,
+        "lat": "51.3569678",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8501972",
+        "name": "Alton Barnes",
+        "osm_id": 276253646,
+        "osm_type": "node",
+        "place_id": 279510418,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Alton Barnes, Wiltshire. (3rd Phase), United Kingdom": {
+    "fetched_at": 1777494335.9162958,
+    "results": []
+  },
+  "GB|Alton Priors, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494443.4520185,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 4JX",
+          "state": "England",
+          "village": "Alton Priors"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3390847",
+          "51.3790847",
+          "-1.8624802",
+          "-1.8224802"
+        ],
+        "class": "place",
+        "display_name": "Alton Priors, Wiltshire, England, SN8 4JX, United Kingdom",
+        "importance": 0.10540294855860563,
+        "lat": "51.3590847",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8424802",
+        "name": "Alton Priors",
+        "osm_id": 1407398367,
+        "osm_type": "node",
+        "place_id": 279331185,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Amesbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494340.6992931,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Amesbury"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.1494538",
+          "51.1919314",
+          "-1.8535584",
+          "-1.7117002"
+        ],
+        "class": "boundary",
+        "display_name": "Amesbury, Wiltshire, England, United Kingdom",
+        "importance": 0.46475370115722797,
+        "lat": "51.1706875",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7706128",
+        "name": "Amesbury",
+        "osm_id": 3404415,
+        "osm_type": "relation",
+        "place_id": 260556532,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Ashbury, Oxfordshire, United Kingdom": {
+    "fetched_at": 1777494425.7839515,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-OXF",
+          "city": "Vale of White Horse",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Oxfordshire",
+          "state": "England",
+          "village": "Ashbury"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.5182932",
+          "51.5982853",
+          "-1.6514479",
+          "-1.5738085"
+        ],
+        "class": "boundary",
+        "display_name": "Ashbury, Vale of White Horse, Oxfordshire, England, United Kingdom",
+        "importance": 0.35499373245428756,
+        "lat": "51.5641493",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.6196955",
+        "name": "Ashbury",
+        "osm_id": 4117237,
+        "osm_type": "relation",
+        "place_id": 281908455,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Ashbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494430.1918032,
+    "results": []
+  },
+  "GB|Avebury Avenue, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494382.502225,
+    "results": []
+  },
+  "GB|Avebury Trusloe, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494282.1909935,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "neighbourhood": "Avebury Trusloe",
+          "postcode": "SN8 1QX",
+          "state": "England",
+          "village": "Beckhampton"
+        },
+        "addresstype": "neighbourhood",
+        "boundingbox": [
+          "51.4145604",
+          "51.4345604",
+          "-1.8746914",
+          "-1.8546914"
+        ],
+        "class": "place",
+        "display_name": "Avebury Trusloe, Beckhampton, Avebury, Wiltshire, England, SN8 1QX, United Kingdom",
+        "importance": 0.13337950789654382,
+        "lat": "51.4245604",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8646914",
+        "name": "Avebury Trusloe",
+        "osm_id": 3472191837,
+        "osm_type": "node",
+        "place_id": 260555037,
+        "place_rank": 20,
+        "type": "neighbourhood"
+      }
+    ]
+  },
+  "GB|Avebury Trusloe, nr Avebury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494279.9441402,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "neighbourhood": "Avebury Trusloe",
+          "postcode": "SN8 1QX",
+          "state": "England",
+          "village": "Beckhampton"
+        },
+        "addresstype": "neighbourhood",
+        "boundingbox": [
+          "51.4145604",
+          "51.4345604",
+          "-1.8746914",
+          "-1.8546914"
+        ],
+        "class": "place",
+        "display_name": "Avebury Trusloe, Beckhampton, Avebury, Wiltshire, England, SN8 1QX, United Kingdom",
+        "importance": 0.13337950789654382,
+        "lat": "51.4245604",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8646914",
+        "name": "Avebury Trusloe",
+        "osm_id": 3472191837,
+        "osm_type": "node",
+        "place_id": 260555037,
+        "place_rank": 20,
+        "type": "neighbourhood"
+      }
+    ]
+  },
+  "GB|Avebury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494281.067618,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "nature_reserve": "Avebury Stone Circle",
+          "state": "England",
+          "village": "Beckhampton"
+        },
+        "addresstype": "nature_reserve",
+        "boundingbox": [
+          "51.4265690",
+          "51.4306979",
+          "-1.8568995",
+          "-1.8505546"
+        ],
+        "class": "leisure",
+        "display_name": "Avebury Stone Circle, Beckhampton, Avebury, Wiltshire, England, United Kingdom",
+        "importance": 0.48982332830928693,
+        "lat": "51.4286099",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8517053",
+        "name": "Avebury Stone Circle",
+        "osm_id": 353244910,
+        "osm_type": "way",
+        "place_id": 431073843,
+        "place_rank": 24,
+        "type": "nature_reserve"
+      }
+    ]
+  },
+  "GB|Barbury Castle, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494367.7242346,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "farmyard": "Barbury Castle Farm",
+          "state": "England",
+          "suburb": "Ogbourne St. Andrew"
+        },
+        "addresstype": "farmyard",
+        "boundingbox": [
+          "51.4784256",
+          "51.4803000",
+          "-1.7836299",
+          "-1.7820433"
+        ],
+        "class": "landuse",
+        "display_name": "Barbury Castle Farm, Ogbourne St. Andrew, Wiltshire, England, United Kingdom",
+        "importance": 0.08004468528267335,
+        "lat": "51.4793488",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7828043",
+        "name": "Barbury Castle Farm",
+        "osm_id": 895020745,
+        "osm_type": "way",
+        "place_id": 278322959,
+        "place_rank": 24,
+        "type": "farmyard"
+      }
+    ]
+  },
+  "GB|Beckhampton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494295.6804516,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 1QN",
+          "state": "England",
+          "village": "Beckhampton"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3987603",
+          "51.4387603",
+          "-1.8942730",
+          "-1.8542730"
+        ],
+        "class": "place",
+        "display_name": "Beckhampton, Avebury, Wiltshire, England, SN8 1QN, United Kingdom",
+        "importance": 0.14671284122987713,
+        "lat": "51.4187603",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8742730",
+        "name": "Beckhampton",
+        "osm_id": 1490974059,
+        "osm_type": "node",
+        "place_id": 261167890,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Between Burbage and Fosbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494345.0858583,
+    "results": []
+  },
+  "GB|Bishop Cannings, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494385.4001217,
+    "results": []
+  },
+  "GB|Bishop's Sutton, Hampshire, United Kingdom": {
+    "fetched_at": 1777494398.0227969,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "postcode": "SO24 0AG",
+          "state": "England",
+          "village": "Bishop's Sutton"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.0639386",
+          "51.1039386",
+          "-1.1554721",
+          "-1.1154721"
+        ],
+        "class": "place",
+        "display_name": "Bishop's Sutton, Winchester, Hampshire, England, SO24 0AG, United Kingdom",
+        "importance": 0.1467317807278553,
+        "lat": "51.0839386",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.1354721",
+        "name": "Bishop's Sutton",
+        "osm_id": 520477080,
+        "osm_type": "node",
+        "place_id": 259943366,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Broad Hinton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494313.6590765,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Broad Hinton"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.4712797",
+          "51.5139884",
+          "-1.8807596",
+          "-1.7978067"
+        ],
+        "class": "boundary",
+        "display_name": "Broad Hinton, Wiltshire, England, United Kingdom",
+        "importance": 0.3763219162544729,
+        "lat": "51.4926083",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8341186",
+        "name": "Broad Hinton",
+        "osm_id": 5488954,
+        "osm_type": "relation",
+        "place_id": 279522012,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Brockwood Park, Hampshire, United Kingdom": {
+    "fetched_at": 1777494408.4648888,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "postcode": "SO24 0LQ",
+          "road": "Brockwood Park Lane",
+          "state": "England",
+          "suburb": "Bramdean and Hinton Ampner",
+          "village": "Bramdean"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.0295549",
+          "51.0358698",
+          "-1.1100957",
+          "-1.1044871"
+        ],
+        "class": "highway",
+        "display_name": "Brockwood Park Lane, Bramdean and Hinton Ampner, Bramdean, Winchester, Hampshire, England, SO24 0LQ, United Kingdom",
+        "importance": 0.05339844739452198,
+        "lat": "51.0329283",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.1074452",
+        "name": "Brockwood Park Lane",
+        "osm_id": 236775077,
+        "osm_type": "way",
+        "place_id": 281339312,
+        "place_rank": 26,
+        "type": "unclassified"
+      }
+    ]
+  },
+  "GB|Burderop Down, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494285.5583372,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-SWD",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Swindon",
+          "meadow": "Burderop Down",
+          "state": "England",
+          "village": "Chiseldon"
+        },
+        "addresstype": "meadow",
+        "boundingbox": [
+          "51.4845392",
+          "51.4885334",
+          "-1.7747282",
+          "-1.7617588"
+        ],
+        "class": "landuse",
+        "display_name": "Burderop Down, Chiseldon, Swindon, England, United Kingdom",
+        "importance": 0.0800616197451743,
+        "lat": "51.4865063",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7682548",
+        "name": "Burderop Down",
+        "osm_id": 915236623,
+        "osm_type": "way",
+        "place_id": 258810792,
+        "place_rank": 24,
+        "type": "meadow"
+      }
+    ]
+  },
+  "GB|Burderop Down, nr Nr Wroughton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494283.3125648,
+    "results": []
+  },
+  "GB|Burrow Hill Fort, Rock Lane, nr Corley, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494297.926443,
+    "results": []
+  },
+  "GB|Burrow Hill Fort, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494300.16868,
+    "results": []
+  },
+  "GB|Bythorn, Cambridgeshire, United Kingdom": {
+    "fetched_at": 1777494377.9155042,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-CAM",
+          "city": "Huntingdonshire",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Cambridgeshire",
+          "postcode": "PE28 0QW",
+          "state": "England",
+          "state_district": "Cambridgeshire and Peterborough",
+          "village": "Bythorn"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "52.3507500",
+          "52.3907500",
+          "-0.4701128",
+          "-0.4301128"
+        ],
+        "class": "place",
+        "display_name": "Bythorn, Huntingdonshire, Cambridgeshire, Cambridgeshire and Peterborough, England, PE28 0QW, United Kingdom",
+        "importance": 0.14672519645990686,
+        "lat": "52.3707500",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-0.4501128",
+        "name": "Bythorn",
+        "osm_id": 534935777,
+        "osm_type": "node",
+        "place_id": 258490859,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Calne, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494358.9783692,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Calne"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.4218261",
+          "51.4559410",
+          "-2.0195691",
+          "-1.9748772"
+        ],
+        "class": "boundary",
+        "display_name": "Calne, Wiltshire, England, United Kingdom",
+        "importance": 0.46389485369754624,
+        "lat": "51.4388615",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.0013196",
+        "name": "Calne",
+        "osm_id": 3411352,
+        "osm_type": "relation",
+        "place_id": 281080375,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Cherhill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494376.4860885,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "village": "Cherhill"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.4035687",
+          "51.4638801",
+          "-1.9950664",
+          "-1.8794688"
+        ],
+        "class": "boundary",
+        "display_name": "Cherhill, Wiltshire, England, United Kingdom",
+        "importance": 0.36912546379837036,
+        "lat": "51.4300322",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9496878",
+        "name": "Cherhill",
+        "osm_id": 5525857,
+        "osm_type": "relation",
+        "place_id": 409305546,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Cheriton, Hampshire, United Kingdom": {
+    "fetched_at": 1777494440.6332016,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "state": "England",
+          "suburb": "Cheriton"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.0063272",
+          "51.0693670",
+          "-1.2289311",
+          "-1.1173500"
+        ],
+        "class": "boundary",
+        "display_name": "Cheriton, Winchester, Hampshire, England, United Kingdom",
+        "importance": 0.32316133360556143,
+        "lat": "51.0378193",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.1964775",
+        "name": "Cheriton",
+        "osm_id": 1584024,
+        "osm_type": "relation",
+        "place_id": 281024205,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Chilbolton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494370.6239736,
+    "results": []
+  },
+  "GB|Chirton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494287.805933,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Chirton"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.2711739",
+          "51.3240409",
+          "-1.9172790",
+          "-1.8852566"
+        ],
+        "class": "boundary",
+        "display_name": "Chirton, Wiltshire, England, United Kingdom",
+        "importance": 0.3697233328141787,
+        "lat": "51.2976525",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9020496",
+        "name": "Chirton",
+        "osm_id": 5574875,
+        "osm_type": "relation",
+        "place_id": 280071754,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Chisbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494290.0580158,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 3JA",
+          "state": "England",
+          "village": "Chisbury"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3747107",
+          "51.4147107",
+          "-1.6233822",
+          "-1.5833822"
+        ],
+        "class": "place",
+        "display_name": "Chisbury, Wiltshire, England, SN8 3JA, United Kingdom",
+        "importance": 0.34431618017923493,
+        "lat": "51.3947107",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.6033822",
+        "name": "Chisbury",
+        "osm_id": 2164227132,
+        "osm_type": "node",
+        "place_id": 281661734,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Chisledon, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494427.1915336,
+    "results": []
+  },
+  "GB|Chute Causeway, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494293.4274993,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SP11 9HB",
+          "road": "Chute Causeway",
+          "state": "England",
+          "village": "Chute"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.2945107",
+          "51.2955121",
+          "-1.5547935",
+          "-1.5397780"
+        ],
+        "class": "highway",
+        "display_name": "Chute Causeway, Chute, Wiltshire, England, SP11 9HB, United Kingdom",
+        "importance": 0.053373140306706306,
+        "lat": "51.2953337",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5472545",
+        "name": "Chute Causeway",
+        "osm_id": 97363808,
+        "osm_type": "way",
+        "place_id": 261109802,
+        "place_rank": 26,
+        "type": "tertiary"
+      }
+    ]
+  },
+  "GB|Chute Causeway, nr Tidcombe, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494291.1806035,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SP11 9EX",
+          "road": "Chute Causeway",
+          "state": "England",
+          "suburb": "Tidcombe and Fosbury",
+          "village": "Tidcombe"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.3045984",
+          "51.3167363",
+          "-1.5912299",
+          "-1.5802727"
+        ],
+        "class": "highway",
+        "display_name": "Chute Causeway, Tidcombe and Fosbury, Tidcombe, Wiltshire, England, SP11 9EX, United Kingdom",
+        "importance": 0.05336114824139769,
+        "lat": "51.3115374",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5868616",
+        "name": "Chute Causeway",
+        "osm_id": 97363807,
+        "osm_type": "way",
+        "place_id": 258852692,
+        "place_rank": 26,
+        "type": "tertiary"
+      }
+    ]
+  },
+  "GB|Cooks Plantation, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494296.8022857,
+    "results": []
+  },
+  "GB|Cooks Plantation, nr Beckhampton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494294.556325,
+    "results": []
+  },
+  "GB|Corley, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494299.0471003,
+    "results": []
+  },
+  "GB|Cosford nr Rugby, Warwickshire, United Kingdom": {
+    "fetched_at": 1777494444.8389661,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WAR",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Warwickshire",
+          "state": "England",
+          "suburb": "Cosford CP",
+          "town": "Rugby",
+          "village": "Newbold on Avon"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "52.3939066",
+          "52.4109324",
+          "-1.2829032",
+          "-1.2602266"
+        ],
+        "class": "boundary",
+        "display_name": "Cosford CP, Newbold on Avon, Rugby, Warwickshire, England, United Kingdom",
+        "importance": 0.2681408123538118,
+        "lat": "52.4023029",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2714039",
+        "name": "Cosford CP",
+        "osm_id": 3438816,
+        "osm_type": "relation",
+        "place_id": 259028250,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Cowdown, Hampshire, United Kingdom": {
+    "fetched_at": 1777494396.2446618,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "hamlet": "Highways",
+          "postcode": "SO21 3DN",
+          "road": "Cowdown",
+          "state": "England",
+          "village": "Micheldever"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.1496192",
+          "51.1497876",
+          "-1.2552554",
+          "-1.2439549"
+        ],
+        "class": "highway",
+        "display_name": "Cowdown, Highways, Micheldever, East Stratton, Winchester, Hampshire, England, SO21 3DN, United Kingdom",
+        "importance": 0.05339844739452198,
+        "lat": "51.1497651",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2495984",
+        "name": "Cowdown",
+        "osm_id": 258569069,
+        "osm_type": "way",
+        "place_id": 281586709,
+        "place_rank": 26,
+        "type": "tertiary"
+      }
+    ]
+  },
+  "GB|Crawley Downs, Hampshire, United Kingdom": {
+    "fetched_at": 1777494366.2920735,
+    "results": []
+  },
+  "GB|Danebury Hill Fort, Hampshire, United Kingdom": {
+    "fetched_at": 1777494394.833427,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Test Valley",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "historic": "Danebury Hill Fort",
+          "road": "Danebury Ring",
+          "state": "England",
+          "suburb": "Nether Wallop"
+        },
+        "addresstype": "historic",
+        "boundingbox": [
+          "51.1352328",
+          "51.1396590",
+          "-1.5425458",
+          "-1.5342475"
+        ],
+        "class": "historic",
+        "display_name": "Danebury Hill Fort, Danebury Ring, Nether Wallop, Test Valley, Hampshire, England, United Kingdom",
+        "importance": 0.3697233328141787,
+        "lat": "51.1374324",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5384025",
+        "name": "Danebury Hill Fort",
+        "osm_id": 103666693,
+        "osm_type": "way",
+        "place_id": 282929331,
+        "place_rank": 30,
+        "type": "archaeological_site"
+      }
+    ]
+  },
+  "GB|Danebury Hill, Hampshire, United Kingdom": {
+    "fetched_at": 1777494436.0288517,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Test Valley",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "peak": "Danebury Hill",
+          "state": "England"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.1370512",
+          "51.1371512",
+          "-1.5398213",
+          "-1.5397213"
+        ],
+        "class": "natural",
+        "display_name": "Danebury Hill, Test Valley, Hampshire, England, United Kingdom",
+        "importance": 0.30723887866744215,
+        "lat": "51.1371012",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5397713",
+        "name": "Danebury Hill",
+        "osm_id": 3306370532,
+        "osm_type": "node",
+        "place_id": 279477257,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Devizes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494305.7870777,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "town": "Devizes"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "51.3330434",
+          "51.3851406",
+          "-2.0258802",
+          "-1.9632678"
+        ],
+        "class": "boundary",
+        "display_name": "Devizes, Wiltshire, England, United Kingdom",
+        "importance": 0.49236203896573244,
+        "lat": "51.3525027",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9958302",
+        "name": "Devizes",
+        "osm_id": 3404438,
+        "osm_type": "relation",
+        "place_id": 281674527,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Dorchester, Dorset, United Kingdom": {
+    "fetched_at": 1777494389.941824,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-DOR",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Dorset",
+          "state": "England",
+          "town": "Dorchester"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "50.6997208",
+          "50.7236302",
+          "-2.4737587",
+          "-2.4061629"
+        ],
+        "class": "boundary",
+        "display_name": "Dorchester, Dorset, England, United Kingdom",
+        "importance": 0.5266922714944506,
+        "lat": "50.7132064",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.4371229",
+        "name": "Dorchester",
+        "osm_id": 5669393,
+        "osm_type": "relation",
+        "place_id": 261868104,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|East Dean, Sussex, United Kingdom": {
+    "fetched_at": 1777494379.6864274,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WSX",
+          "city": "Chichester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "West Sussex",
+          "state": "England",
+          "village": "East Dean"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "50.8833212",
+          "50.9395508",
+          "-0.7295853",
+          "-0.6695059"
+        ],
+        "class": "boundary",
+        "display_name": "East Dean, Chichester, West Sussex, England, United Kingdom",
+        "importance": 0.38014184139068014,
+        "lat": "50.9086512",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-0.7157942",
+        "name": "East Dean",
+        "osm_id": 3000468,
+        "osm_type": "relation",
+        "place_id": 262535211,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|East Field 1, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494303.5390213,
+    "results": []
+  },
+  "GB|East Field 1, nr Alton Barnes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494301.2923312,
+    "results": []
+  },
+  "GB|East Field, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494387.0025258,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "farmland": "East Field",
+          "state": "England",
+          "suburb": "Alton",
+          "village": "Alton Priors"
+        },
+        "addresstype": "farmland",
+        "boundingbox": [
+          "51.3589634",
+          "51.3704237",
+          "-1.8429615",
+          "-1.8205763"
+        ],
+        "class": "landuse",
+        "display_name": "East Field, Alton, Alton Priors, Wiltshire, England, United Kingdom",
+        "importance": 0.10671161135271226,
+        "lat": "51.3647493",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8317791",
+        "name": "East Field",
+        "osm_id": 206474795,
+        "osm_type": "way",
+        "place_id": 259768742,
+        "place_rank": 22,
+        "type": "farmland"
+      }
+    ]
+  },
+  "GB|East Kennett, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494383.8439298,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "East Kennett"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.3834397",
+          "51.4130032",
+          "-1.8487591",
+          "-1.8213087"
+        ],
+        "class": "boundary",
+        "display_name": "East Kennett, Wiltshire, England, United Kingdom",
+        "importance": 0.36615672375168384,
+        "lat": "51.3982362",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8335855",
+        "name": "East Kennett",
+        "osm_id": 5493633,
+        "osm_type": "relation",
+        "place_id": 283857740,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|East Meon, Hampshire, United Kingdom": {
+    "fetched_at": 1777494439.0338771,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "East Hampshire",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "state": "England",
+          "suburb": "East Meon"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "50.9511873",
+          "51.0365511",
+          "-1.0695337",
+          "-0.9799269"
+        ],
+        "class": "boundary",
+        "display_name": "East Meon, East Hampshire, Hampshire, England, United Kingdom",
+        "importance": 0.3523323513289129,
+        "lat": "50.9939732",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.0365199",
+        "name": "East Meon",
+        "osm_id": 3336660,
+        "osm_type": "relation",
+        "place_id": 280931133,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|East Oakley, Hampshire, United Kingdom": {
+    "fetched_at": 1777494415.708043,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Basingstoke and Deane",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "postcode": "RG23 7AP",
+          "state": "England",
+          "village": "East Oakley"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.2289322",
+          "51.2689322",
+          "-1.1952777",
+          "-1.1552777"
+        ],
+        "class": "place",
+        "display_name": "East Oakley, Basingstoke and Deane, Hampshire, England, RG23 7AP, United Kingdom",
+        "importance": 0.14671887312123288,
+        "lat": "51.2489322",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.1752777",
+        "name": "East Oakley",
+        "osm_id": 26989752,
+        "osm_type": "node",
+        "place_id": 260391233,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|East of Silbury Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494431.7131922,
+    "results": []
+  },
+  "GB|Etchilhampton Hill, Nr Devizes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494306.9088287,
+    "results": []
+  },
+  "GB|Froxfield, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494381.0833976,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Froxfield"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.3911057",
+          "51.4292451",
+          "-1.6237874",
+          "-1.5529312"
+        ],
+        "class": "boundary",
+        "display_name": "Froxfield, Wiltshire, England, United Kingdom",
+        "importance": 0.37397891556421264,
+        "lat": "51.4101726",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5903302",
+        "name": "Froxfield",
+        "osm_id": 5431817,
+        "osm_type": "relation",
+        "place_id": 281567915,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Gander Down, Hampshire, United Kingdom": {
+    "fetched_at": 1777494399.47628,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "peak": "Gander Down",
+          "postcode": "SO24 0NX",
+          "state": "England"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.0431882",
+          "51.0432882",
+          "-1.1988015",
+          "-1.1987015"
+        ],
+        "class": "natural",
+        "display_name": "Gander Down, Winchester, Hampshire, England, SO24 0NX, United Kingdom",
+        "importance": 0.16006511406118867,
+        "lat": "51.0432382",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.1987515",
+        "name": "Gander Down",
+        "osm_id": 10229229513,
+        "osm_type": "node",
+        "place_id": 260438672,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Giant's Grave, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494310.2855911,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "peak": "Giant's Grave",
+          "postcode": "SN8 4HZ",
+          "state": "England",
+          "village": "Oare"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.3676536",
+          "51.3677536",
+          "-1.7631627",
+          "-1.7630627"
+        ],
+        "class": "natural",
+        "display_name": "Giant's Grave, Oare, Wiltshire, England, SN8 4HZ, United Kingdom",
+        "importance": 0.16004000076295108,
+        "lat": "51.3677036",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7631127",
+        "name": "Giant's Grave",
+        "osm_id": 271346,
+        "osm_type": "node",
+        "place_id": 281737586,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Giant's Grave, nr Oare, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494308.035264,
+    "results": []
+  },
+  "GB|Goodworth Clatford, Hampshire, United Kingdom": {
+    "fetched_at": 1777494375.158124,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Test Valley",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "state": "England",
+          "village": "Goodworth Clatford"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.1457729",
+          "51.2005567",
+          "-1.5388644",
+          "-1.4379528"
+        ],
+        "class": "boundary",
+        "display_name": "Goodworth Clatford, Test Valley, Hampshire, England, United Kingdom",
+        "importance": 0.31776205367205024,
+        "lat": "51.1784226",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.4836046",
+        "name": "Goodworth Clatford",
+        "osm_id": 3897810,
+        "osm_type": "relation",
+        "place_id": 260788616,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Gripp Patch, nr Chirton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494286.6825345,
+    "results": []
+  },
+  "GB|Hackpen Hill , nr Broad Hinton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494312.5354753,
+    "results": []
+  },
+  "GB|Hackpen Hill, Nr Broad Hinton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494315.9158015,
+    "results": []
+  },
+  "GB|Hackpen Hill, nr Broad Hinton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494314.7875981,
+    "results": []
+  },
+  "GB|Hackpen, Wiltshire United Kingdom, United Kingdom": {
+    "fetched_at": 1777494311.4118736,
+    "results": []
+  },
+  "GB|Harewood, Hampshire, United Kingdom": {
+    "fetched_at": 1777494405.5919445,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Test Valley",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "farmyard": "Harewood Farm",
+          "state": "England",
+          "town": "Andover",
+          "village": "Picket Piece"
+        },
+        "addresstype": "farmyard",
+        "boundingbox": [
+          "51.2131435",
+          "51.2159492",
+          "-1.4363661",
+          "-1.4283624"
+        ],
+        "class": "landuse",
+        "display_name": "Harewood Farm, Andover, Picket Piece, Test Valley, Hampshire, England, United Kingdom",
+        "importance": 0.10672028305485616,
+        "lat": "51.2143470",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.4338540",
+        "name": "Harewood Farm",
+        "osm_id": 178700177,
+        "osm_type": "way",
+        "place_id": 260208471,
+        "place_rank": 22,
+        "type": "farmyard"
+      }
+    ]
+  },
+  "GB|Headbourne Worthy, Hampshire, United Kingdom": {
+    "fetched_at": 1777494441.9849014,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "hamlet": "Headbourne Worthy",
+          "state": "England"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.0754160",
+          "51.1184689",
+          "-1.3573582",
+          "-1.2959831"
+        ],
+        "class": "boundary",
+        "display_name": "Headbourne Worthy, Winchester, Hampshire, England, United Kingdom",
+        "importance": 0.31776205367205024,
+        "lat": "51.0877488",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.3092124",
+        "name": "Headbourne Worthy",
+        "osm_id": 3333288,
+        "osm_type": "relation",
+        "place_id": 279451799,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Henwood, Hampshire, United Kingdom": {
+    "fetched_at": 1777494407.0154238,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "building": "Henwood",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "postcode": "SO22 4NA",
+          "road": "St Catherines Place",
+          "state": "England",
+          "suburb": "Sleepers' Hill"
+        },
+        "addresstype": "building",
+        "boundingbox": [
+          "51.0575685",
+          "51.0577096",
+          "-1.3351699",
+          "-1.3349403"
+        ],
+        "class": "building",
+        "display_name": "Henwood, St Catherines Place, Sleepers' Hill, Winchester, Hampshire, England, SO22 4NA, United Kingdom",
+        "importance": 6.51140611886323e-05,
+        "lat": "51.0576394",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.3350539",
+        "name": "Henwood",
+        "osm_id": 1416077471,
+        "osm_type": "way",
+        "place_id": 278153470,
+        "place_rank": 30,
+        "type": "house"
+      }
+    ]
+  },
+  "GB|Hilcott, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494319.2920923,
+    "results": []
+  },
+  "GB|Hilcott, nr Wilsford, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494317.0402074,
+    "results": []
+  },
+  "GB|Hungerford, Berkshire, United Kingdom": {
+    "fetched_at": 1777494354.5270708,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WBK",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "West Berkshire",
+          "hamlet": "Eddington",
+          "postcode": "RG17 0DD",
+          "railway": "Hungerford",
+          "road": "Station Road",
+          "state": "England",
+          "town": "Hungerford"
+        },
+        "addresstype": "railway",
+        "boundingbox": [
+          "51.4097137",
+          "51.4197137",
+          "-1.5164295",
+          "-1.5064295"
+        ],
+        "class": "railway",
+        "display_name": "Hungerford, Station Road, Eddington, Hungerford, West Berkshire, England, RG17 0DD, United Kingdom",
+        "importance": 0.27236747457604304,
+        "lat": "51.4147137",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5114295",
+        "name": "Hungerford",
+        "osm_id": 6605264909,
+        "osm_type": "node",
+        "place_id": 260655589,
+        "place_rank": 30,
+        "type": "station"
+      }
+    ]
+  },
+  "GB|LimeKiln Wood, Nr Wellington, Shropshire, United Kingdom": {
+    "fetched_at": 1777494346.6431067,
+    "results": []
+  },
+  "GB|LimeKiln Wood, Shropshire, United Kingdom": {
+    "fetched_at": 1777494349.756057,
+    "results": []
+  },
+  "GB|Litchfield, Hampshire, United Kingdom": {
+    "fetched_at": 1777494403.9780362,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Basingstoke and Deane",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "hamlet": "Litchfield",
+          "postcode": "RG28 7PR",
+          "state": "England",
+          "suburb": "Litchfield and Woodcott"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.2626256",
+          "51.3026256",
+          "-1.3588563",
+          "-1.3188563"
+        ],
+        "class": "place",
+        "display_name": "Litchfield, Litchfield and Woodcott, Basingstoke and Deane, Hampshire, England, RG28 7PR, United Kingdom",
+        "importance": 0.3272701010450185,
+        "lat": "51.2826256",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.3388563",
+        "name": "Litchfield",
+        "osm_id": 348004061,
+        "osm_type": "node",
+        "place_id": 281359623,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "GB|Lockeridge, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494343.7384107,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 4EJ",
+          "state": "England",
+          "village": "Lockeridge"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3886928",
+          "51.4286928",
+          "-1.8094686",
+          "-1.7694686"
+        ],
+        "class": "place",
+        "display_name": "Lockeridge, Wiltshire, England, SN8 4EJ, United Kingdom",
+        "importance": 0.19619210675062,
+        "lat": "51.4086928",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7894686",
+        "name": "Lockeridge",
+        "osm_id": 1429063172,
+        "osm_type": "node",
+        "place_id": 279532266,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Longwood Warren, Hampshire, United Kingdom": {
+    "fetched_at": 1777494401.0774896,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "meadow": "Longwood Warren",
+          "state": "England",
+          "suburb": "Owslebury"
+        },
+        "addresstype": "meadow",
+        "boundingbox": [
+          "51.0310836",
+          "51.0383178",
+          "-1.2609575",
+          "-1.2512739"
+        ],
+        "class": "landuse",
+        "display_name": "Longwood Warren, Owslebury, Winchester, Hampshire, England, United Kingdom",
+        "importance": 0.10673178072785532,
+        "lat": "51.0345971",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2563271",
+        "name": "Longwood Warren",
+        "osm_id": 350463114,
+        "osm_type": "way",
+        "place_id": 402663376,
+        "place_rank": 22,
+        "type": "meadow"
+      }
+    ]
+  },
+  "GB|Martock/South Pemberton, Somerset, United Kingdom": {
+    "fetched_at": 1777494420.2653632,
+    "results": []
+  },
+  "GB|Merenswegje, Noord Brabant, United Kingdom": {
+    "fetched_at": 1777494275.4489014,
+    "results": []
+  },
+  "GB|Milk Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494372.1813333,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "peak": "Milk Hill",
+          "postcode": "SN8 4LD",
+          "state": "England"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.3784359",
+          "51.3785359",
+          "-1.8522081",
+          "-1.8521081"
+        ],
+        "class": "natural",
+        "display_name": "Milk Hill, Wiltshire, England, SN8 4LD, United Kingdom",
+        "importance": 0.2049590550690361,
+        "lat": "51.3784859",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8521581",
+        "name": "Milk Hill",
+        "osm_id": 289330749,
+        "osm_type": "node",
+        "place_id": 260523531,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Monument Hill, Etchilhampton, nr Devizes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494304.6634808,
+    "results": []
+  },
+  "GB|Morestead, Hampshire, United Kingdom": {
+    "fetched_at": 1777494402.5965202,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "hamlet": "Morestead",
+          "postcode": "SO21 1NB",
+          "state": "England",
+          "suburb": "Owslebury"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.0066945",
+          "51.0466945",
+          "-1.2949469",
+          "-1.2549469"
+        ],
+        "class": "place",
+        "display_name": "Morestead, Owslebury, Winchester, Hampshire, England, SO21 1NB, United Kingdom",
+        "importance": 0.30014322180081293,
+        "lat": "51.0266945",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2749469",
+        "name": "Morestead",
+        "osm_id": 21273694,
+        "osm_type": "node",
+        "place_id": 260731716,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "GB|Nadarzyce, Wielkopolska, United Kingdom": {
+    "fetched_at": 1777494276.573942,
+    "results": []
+  },
+  "GB|Nr Wroughton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494284.434605,
+    "results": []
+  },
+  "GB|Nr Yeovil, Somerset, United Kingdom": {
+    "fetched_at": 1777494360.3519316,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-SOM",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Somerset",
+          "state": "England",
+          "town": "Yeovil"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "50.9267894",
+          "50.9566027",
+          "-2.6715132",
+          "-2.5979883"
+        ],
+        "class": "boundary",
+        "display_name": "Yeovil, Somerset, England, United Kingdom",
+        "importance": 0.5205439979126446,
+        "lat": "50.9420451",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.6318629",
+        "name": "Yeovil",
+        "osm_id": 2877321,
+        "osm_type": "relation",
+        "place_id": 282675699,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Oare, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494309.160815,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 4JH",
+          "state": "England",
+          "village": "Oare"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3462537",
+          "51.3862537",
+          "-1.7952408",
+          "-1.7552408"
+        ],
+        "class": "place",
+        "display_name": "Oare, Wiltshire, England, SN8 4JH, United Kingdom",
+        "importance": 0.22742205121143227,
+        "lat": "51.3662537",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7752408",
+        "name": "Oare",
+        "osm_id": 33433072,
+        "osm_type": "node",
+        "place_id": 259031108,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Ogbourne Maisey, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494369.1370032,
+    "results": []
+  },
+  "GB|Oliver's Castle, Wessex Ridgeway, Nr Roundway, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494320.8829522,
+    "results": []
+  },
+  "GB|Oliver's Castle, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494428.7540114,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "hamlet": "Roundway",
+          "historic": "Oliver's Castle",
+          "postcode": "SN10 2JF",
+          "road": "Conscience Lane",
+          "state": "England",
+          "town": "Devizes"
+        },
+        "addresstype": "historic",
+        "boundingbox": [
+          "51.3805251",
+          "51.3819287",
+          "-2.0010553",
+          "-1.9989631"
+        ],
+        "class": "historic",
+        "display_name": "Oliver's Castle, Conscience Lane, Roundway, Devizes, Wiltshire, England, SN10 2JF, United Kingdom",
+        "importance": 4.564812695501667e-05,
+        "lat": "51.3812567",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9998574",
+        "name": "Oliver's Castle",
+        "osm_id": 125300582,
+        "osm_type": "way",
+        "place_id": 281439365,
+        "place_rank": 30,
+        "type": "archaeological_site"
+      }
+    ]
+  },
+  "GB|Opposite Silbury Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494414.303058,
+    "results": []
+  },
+  "GB|Opposite Stonehenge, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494417.1562479,
+    "results": []
+  },
+  "GB|Pepperbox Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494412.9001026,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "peak": "Pepperbox Hill",
+          "state": "England",
+          "village": "Whiteparish"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.0230287",
+          "51.0231287",
+          "-1.6983900",
+          "-1.6982900"
+        ],
+        "class": "natural",
+        "display_name": "Pepperbox Hill, Whiteparish, Wiltshire, England, United Kingdom",
+        "importance": 0.1600375013351644,
+        "lat": "51.0230787",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.6983400",
+        "name": "Pepperbox Hill",
+        "osm_id": 33715925,
+        "osm_type": "node",
+        "place_id": 281723474,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Pitt, Hampshire, United Kingdom": {
+    "fetched_at": 1777494325.6505558,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "hamlet": "Pitt",
+          "postcode": "SO22 5QX",
+          "state": "England",
+          "village": "Hursley"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.0295852",
+          "51.0695852",
+          "-1.3770280",
+          "-1.3370280"
+        ],
+        "class": "place",
+        "display_name": "Pitt, Hursley, Winchester, Hampshire, England, SO22 5QX, United Kingdom",
+        "importance": 0.133398447394522,
+        "lat": "51.0495852",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.3570280",
+        "name": "Pitt",
+        "osm_id": 285898943,
+        "osm_type": "node",
+        "place_id": 281035756,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "GB|Quidhampton, Hampshire, United Kingdom": {
+    "fetched_at": 1777494391.5069318,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Basingstoke and Deane",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "postcode": "RG25 3JL",
+          "state": "England",
+          "village": "Quidhampton"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.2317400",
+          "51.2717400",
+          "-1.2792942",
+          "-1.2392942"
+        ],
+        "class": "place",
+        "display_name": "Quidhampton, Basingstoke and Deane, Hampshire, England, RG25 3JL, United Kingdom",
+        "importance": 0.3202715765630289,
+        "lat": "51.2517400",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2592942",
+        "name": "Quidhampton",
+        "osm_id": 3307989387,
+        "osm_type": "node",
+        "place_id": 279427804,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Rockley Down, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494434.5202644,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "farmland": "Rockley Down",
+          "state": "England",
+          "suburb": "Ogbourne St. Andrew"
+        },
+        "addresstype": "farmland",
+        "boundingbox": [
+          "51.4567226",
+          "51.4628433",
+          "-1.7898245",
+          "-1.7786871"
+        ],
+        "class": "landuse",
+        "display_name": "Rockley Down, Ogbourne St. Andrew, Wiltshire, England, United Kingdom",
+        "importance": 0.10671135194934002,
+        "lat": "51.4597722",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7844304",
+        "name": "Rockley Down",
+        "osm_id": 1270625573,
+        "osm_type": "way",
+        "place_id": 260216051,
+        "place_rank": 22,
+        "type": "farmland"
+      }
+    ]
+  },
+  "GB|Roundway Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494409.9666624,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "peak": "Roundway Hill",
+          "state": "England",
+          "village": "Bishops Cannings"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.3812569",
+          "51.3813569",
+          "-1.9686599",
+          "-1.9685599"
+        ],
+        "class": "natural",
+        "display_name": "Roundway Hill, Bishops Cannings, Wiltshire, England, United Kingdom",
+        "importance": 0.16004527580682076,
+        "lat": "51.3813069",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9686099",
+        "name": "Roundway Hill",
+        "osm_id": 9547967184,
+        "osm_type": "node",
+        "place_id": 279528840,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Roundway, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494322.2962615,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "hamlet": "Roundway",
+          "postcode": "SN10 2HU",
+          "state": "England",
+          "town": "Devizes"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.3480653",
+          "51.3880653",
+          "-1.9998752",
+          "-1.9598752"
+        ],
+        "class": "place",
+        "display_name": "Roundway, Devizes, Wiltshire, England, SN10 2HU, United Kingdom",
+        "importance": 0.3643136597960292,
+        "lat": "51.3680653",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9798752",
+        "name": "Roundway",
+        "osm_id": 322019094,
+        "osm_type": "node",
+        "place_id": 261392751,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "GB|Roundway, nr Devizes, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494329.9865577,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "hamlet": "Roundway",
+          "postcode": "SN10 2HU",
+          "state": "England",
+          "town": "Devizes"
+        },
+        "addresstype": "hamlet",
+        "boundingbox": [
+          "51.3480653",
+          "51.3880653",
+          "-1.9998752",
+          "-1.9598752"
+        ],
+        "class": "place",
+        "display_name": "Roundway, Devizes, Wiltshire, England, SN10 2HU, United Kingdom",
+        "importance": 0.3643136597960292,
+        "lat": "51.3680653",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.9798752",
+        "name": "Roundway",
+        "osm_id": 322019094,
+        "osm_type": "node",
+        "place_id": 261392751,
+        "place_rank": 20,
+        "type": "hamlet"
+      }
+    ]
+  },
+  "GB|Rugby, Warwickshire, United Kingdom": {
+    "fetched_at": 1777494446.4190269,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WAR",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Warwickshire",
+          "state": "England",
+          "town": "Rugby"
+        },
+        "addresstype": "town",
+        "boundingbox": [
+          "52.2527345",
+          "52.5344916",
+          "-1.4651266",
+          "-1.1721404"
+        ],
+        "class": "boundary",
+        "display_name": "Rugby, Warwickshire, England, United Kingdom",
+        "importance": 0.5121121582620879,
+        "lat": "52.3726682",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2620038",
+        "name": "Rugby",
+        "osm_id": 173773,
+        "osm_type": "relation",
+        "place_id": 281574961,
+        "place_rank": 16,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Salenghe, Piemonte, United Kingdom": {
+    "fetched_at": 1777494274.3261979,
+    "results": []
+  },
+  "GB|Silbury Hill, Nr Avebury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494331.4055629,
+    "results": []
+  },
+  "GB|Silbury Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494332.6843138,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "grassland": "Silbury Hill",
+          "state": "England",
+          "village": "Beckhampton"
+        },
+        "addresstype": "grassland",
+        "boundingbox": [
+          "51.4149749",
+          "51.4165116",
+          "-1.8585762",
+          "-1.8561947"
+        ],
+        "class": "natural",
+        "display_name": "Silbury Hill, Beckhampton, Avebury, Wiltshire, England, United Kingdom",
+        "importance": 0.4002432604740663,
+        "lat": "51.4157326",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8573861",
+        "name": "Silbury Hill",
+        "osm_id": 377466789,
+        "osm_type": "way",
+        "place_id": 278241707,
+        "place_rank": 22,
+        "type": "grassland"
+      }
+    ]
+  },
+  "GB|Small circle near Pitt, Hampshire, United Kingdom": {
+    "fetched_at": 1777494324.0409615,
+    "results": []
+  },
+  "GB|Somerton, Somerset, United Kingdom": {
+    "fetched_at": 1777494424.3504927,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-SOM",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Somerset",
+          "state": "England",
+          "suburb": "Somerton"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.0248263",
+          "51.0984217",
+          "-2.7896945",
+          "-2.6940308"
+        ],
+        "class": "boundary",
+        "display_name": "Somerton, Somerset, England, United Kingdom",
+        "importance": 0.44925284818759786,
+        "lat": "51.0616100",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.7548573",
+        "name": "Somerton",
+        "osm_id": 2885841,
+        "osm_type": "relation",
+        "place_id": 261752999,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|St Martin's Chapel nr Chisbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494288.9364665,
+    "results": []
+  },
+  "GB|Stanton St Bernard , nr Alton Barnes, Wiltshire. (3rd Phase), United Kingdom": {
+    "fetched_at": 1777494334.500912,
+    "results": []
+  },
+  "GB|Stanton St Bernard, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494278.8209362,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Stanton St Bernard"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.3327500",
+          "51.3970581",
+          "-1.8853510",
+          "-1.8359698"
+        ],
+        "class": "boundary",
+        "display_name": "Stanton St Bernard, Wiltshire, England, United Kingdom",
+        "importance": 0.36855591270156857,
+        "lat": "51.3649969",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8630506",
+        "name": "Stanton St Bernard",
+        "osm_id": 5539153,
+        "osm_type": "relation",
+        "place_id": 279520057,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Stanton St Bernard, Wiltshire. (3rd Phase), United Kingdom": {
+    "fetched_at": 1777494337.5604227,
+    "results": []
+  },
+  "GB|Stanton St, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494364.7770936,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Stanton St. Quintin",
+          "village": "Stanton St Quintin"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.5109374",
+          "51.5323707",
+          "-2.1680991",
+          "-2.0890978"
+        ],
+        "class": "boundary",
+        "display_name": "Stanton St. Quintin, Stanton St Quintin, Wiltshire, England, United Kingdom",
+        "importance": 0.3658839774319802,
+        "lat": "51.5215898",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.1329700",
+        "name": "Stanton St. Quintin",
+        "osm_id": 5508299,
+        "osm_type": "relation",
+        "place_id": 260275885,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Stonehenge, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494342.2190304,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "historic": "Stonehenge",
+          "postcode": "SP4 7DE",
+          "road": "A303",
+          "state": "England",
+          "suburb": "Amesbury",
+          "town": "Amesbury"
+        },
+        "addresstype": "historic",
+        "boundingbox": [
+          "51.1782746",
+          "51.1793840",
+          "-1.8270699",
+          "-1.8250800"
+        ],
+        "class": "historic",
+        "display_name": "Stonehenge, A303, Amesbury, Wiltshire, England, SP4 7DE, United Kingdom",
+        "importance": 0.5812106617719893,
+        "lat": "51.1788293",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8261830",
+        "name": "Stonehenge",
+        "osm_id": 37118074,
+        "osm_type": "way",
+        "place_id": 281073029,
+        "place_rank": 30,
+        "type": "archaeological_site"
+      }
+    ]
+  },
+  "GB|Stonehenge, nr Amesbury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494339.1604214,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "locality": "Stonehenge",
+          "postcode": "SP4 7DE",
+          "state": "England",
+          "suburb": "Amesbury"
+        },
+        "addresstype": "locality",
+        "boundingbox": [
+          "51.1674994",
+          "51.1874994",
+          "-1.8374208",
+          "-1.8174208"
+        ],
+        "class": "place",
+        "display_name": "Stonehenge, Amesbury, Wiltshire, England, SP4 7DE, United Kingdom",
+        "importance": 0.2701992234339303,
+        "lat": "51.1774994",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8274208",
+        "name": "Stonehenge",
+        "osm_id": 11946038056,
+        "osm_type": "node",
+        "place_id": 260936691,
+        "place_rank": 25,
+        "type": "locality"
+      }
+    ]
+  },
+  "GB|Teglease Down nr East Meon, Hampshire, United Kingdom": {
+    "fetched_at": 1777494437.6108425,
+    "results": []
+  },
+  "GB|Telegraph Hill, Hampshire, United Kingdom": {
+    "fetched_at": 1777494393.2727933,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "peak": "Telegraph Hill",
+          "postcode": "SO21 1HL",
+          "state": "England"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.0507921",
+          "51.0508921",
+          "-1.2553759",
+          "-1.2552759"
+        ],
+        "class": "natural",
+        "display_name": "Telegraph Hill, Winchester, Hampshire, England, SO21 1HL, United Kingdom",
+        "importance": 0.16006511406118867,
+        "lat": "51.0508421",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2553259",
+        "name": "Telegraph Hill",
+        "osm_id": 271183,
+        "osm_type": "node",
+        "place_id": 258724969,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|The Ridgeway, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494328.4436464,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "road": "The Ridgeway",
+          "state": "England",
+          "suburb": "Ogbourne St. Andrew",
+          "village": "Wroughton"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.4849525",
+          "51.4861403",
+          "-1.7970838",
+          "-1.7931129"
+        ],
+        "class": "highway",
+        "display_name": "The Ridgeway, Ogbourne St. Andrew, Wroughton, Wiltshire, England, United Kingdom",
+        "importance": 0.05339495307850763,
+        "lat": "51.4858279",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.7951848",
+        "name": "The Ridgeway",
+        "osm_id": 506808190,
+        "osm_type": "way",
+        "place_id": 279532396,
+        "place_rank": 26,
+        "type": "track"
+      }
+    ]
+  },
+  "GB|The Ridgeway, nr Avebury, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494327.0322156,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 1QE",
+          "road": "The Ridgeway",
+          "state": "England",
+          "suburb": "West Overton",
+          "village": "Avebury"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.4178029",
+          "51.4364814",
+          "-1.8302422",
+          "-1.8214416"
+        ],
+        "class": "highway",
+        "display_name": "The Ridgeway, West Overton, Avebury, Wiltshire, England, SN8 1QE, United Kingdom",
+        "importance": 0.0533795078965438,
+        "lat": "51.4270228",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8257486",
+        "name": "The Ridgeway",
+        "osm_id": 361135631,
+        "osm_type": "way",
+        "place_id": 260754046,
+        "place_rank": 26,
+        "type": "track"
+      }
+    ]
+  },
+  "GB|The White Horse, nr Alton Barnes. Wiltshire, United Kingdom": {
+    "fetched_at": 1777494351.340154,
+    "results": []
+  },
+  "GB|Tidcombe, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494292.3039,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "postcode": "SN8 3SL",
+          "state": "England",
+          "village": "Tidcombe"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.3041819",
+          "51.3441819",
+          "-1.6037149",
+          "-1.5637149"
+        ],
+        "class": "place",
+        "display_name": "Tidcombe, Wiltshire, England, SN8 3SL, United Kingdom",
+        "importance": 0.16273786379520622,
+        "lat": "51.3241819",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5837149",
+        "name": "Tidcombe",
+        "osm_id": 3703585252,
+        "osm_type": "node",
+        "place_id": 281459011,
+        "place_rank": 19,
+        "type": "village"
+      }
+    ]
+  },
+  "GB|Uffington, Oxfordshire, United Kingdom": {
+    "fetched_at": 1777494388.5237591,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-OXF",
+          "city": "Vale of White Horse",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Oxfordshire",
+          "state": "England",
+          "village": "Uffington"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.5524121",
+          "51.6173580",
+          "-1.5861973",
+          "-1.5391363"
+        ],
+        "class": "boundary",
+        "display_name": "Uffington, Vale of White Horse, Oxfordshire, England, United Kingdom",
+        "importance": 0.35911368677628197,
+        "lat": "51.6009313",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.5626067",
+        "name": "Uffington",
+        "osm_id": 4119914,
+        "osm_type": "relation",
+        "place_id": 261069518,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Upham, Hampshire, United Kingdom": {
+    "fetched_at": 1777494433.233846,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-HAM",
+          "city": "Winchester",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Hampshire",
+          "state": "England",
+          "suburb": "Upham"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "50.9592346",
+          "51.0082185",
+          "-1.2699811",
+          "-1.1877473"
+        ],
+        "class": "boundary",
+        "display_name": "Upham, Winchester, Hampshire, England, United Kingdom",
+        "importance": 0.32968232841773404,
+        "lat": "50.9840070",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2369245",
+        "name": "Upham",
+        "osm_id": 1583923,
+        "osm_type": "relation",
+        "place_id": 262470131,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Wellington, Shropshire, United Kingdom": {
+    "fetched_at": 1777494348.38448,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-CHE",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Cheshire East",
+          "state": "England",
+          "suburb": "Dodcott cum Wilkesley",
+          "village": "Burleydam",
+          "wood": "Wellington Covert and Stonelodge Wood"
+        },
+        "addresstype": "wood",
+        "boundingbox": [
+          "52.9838988",
+          "52.9885909",
+          "-2.6177633",
+          "-2.5990003"
+        ],
+        "class": "natural",
+        "display_name": "Wellington Covert and Stonelodge Wood, Dodcott cum Wilkesley, Burleydam, Cheshire East, England, United Kingdom",
+        "importance": 0.10671287632562751,
+        "lat": "52.9861732",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-2.6061726",
+        "name": "Wellington Covert and Stonelodge Wood",
+        "osm_id": 386352048,
+        "osm_type": "way",
+        "place_id": 425151256,
+        "place_rank": 22,
+        "type": "wood"
+      }
+    ]
+  },
+  "GB|West Ilsley, Oxfordshire, United Kingdom": {
+    "fetched_at": 1777494373.71916,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-OXF",
+          "city": "Vale of White Horse",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Oxfordshire",
+          "postcode": "OX11 0RW",
+          "road": "West Ilsley Interchange",
+          "state": "England",
+          "village": "Chilton"
+        },
+        "addresstype": "road",
+        "boundingbox": [
+          "51.5579974",
+          "51.5581859",
+          "-1.2998143",
+          "-1.2995115"
+        ],
+        "class": "highway",
+        "display_name": "West Ilsley Interchange, Chilton, Vale of White Horse, Oxfordshire, England, OX11 0RW, United Kingdom",
+        "importance": 0.05337914930952922,
+        "lat": "51.5580847",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.2996635",
+        "name": "West Ilsley Interchange",
+        "osm_id": 30701888,
+        "osm_type": "way",
+        "place_id": 279627146,
+        "place_rank": 26,
+        "type": "tertiary"
+      }
+    ]
+  },
+  "GB|West Overton, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494418.758279,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "West Overton"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.3813376",
+          "51.4507964",
+          "-1.8307411",
+          "-1.7651099"
+        ],
+        "class": "boundary",
+        "display_name": "West Overton, Wiltshire, England, United Kingdom",
+        "importance": 0.3697233328141787,
+        "lat": "51.4160446",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8112983",
+        "name": "West Overton",
+        "osm_id": 5489082,
+        "osm_type": "relation",
+        "place_id": 281099505,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|West Tistead, Hampshire, United Kingdom": {
+    "fetched_at": 1777494422.7908406,
+    "results": []
+  },
+  "GB|Wickham Green , nr Hungerford, Berkshire, United Kingdom": {
+    "fetched_at": 1777494352.8882718,
+    "results": []
+  },
+  "GB|Wickham Green, Berkshire, United Kingdom": {
+    "fetched_at": 1777494356.0751889,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WBK",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "West Berkshire",
+          "farmyard": "Wickham Green Farm",
+          "state": "England",
+          "village": "Wickham"
+        },
+        "addresstype": "farmyard",
+        "boundingbox": [
+          "51.4437509",
+          "51.4446720",
+          "-1.4300385",
+          "-1.4282548"
+        ],
+        "class": "landuse",
+        "display_name": "Wickham Green Farm, Wickham, Welford, West Berkshire, England, United Kingdom",
+        "importance": 0.08004634546425571,
+        "lat": "51.4442332",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.4293523",
+        "name": "Wickham Green Farm",
+        "osm_id": 853026816,
+        "osm_type": "way",
+        "place_id": 281438538,
+        "place_rank": 24,
+        "type": "farmyard"
+      }
+    ]
+  },
+  "GB|Wilsford, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494318.1680276,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "suburb": "Wilsford"
+        },
+        "addresstype": "suburb",
+        "boundingbox": [
+          "51.2607250",
+          "51.3205983",
+          "-1.9049873",
+          "-1.8461452"
+        ],
+        "class": "boundary",
+        "display_name": "Wilsford, Wiltshire, England, United Kingdom",
+        "importance": 0.24256732666913378,
+        "lat": "51.2905378",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8707190",
+        "name": "Wilsford",
+        "osm_id": 5575050,
+        "osm_type": "relation",
+        "place_id": 260518055,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Winterbourne Bassett, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494411.5051498,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "state": "England",
+          "village": "Winterbourne Bassett"
+        },
+        "addresstype": "village",
+        "boundingbox": [
+          "51.4585046",
+          "51.4846433",
+          "-1.8933570",
+          "-1.8112322"
+        ],
+        "class": "boundary",
+        "display_name": "Winterbourne Bassett, Wiltshire, England, United Kingdom",
+        "importance": 0.36760675791195535,
+        "lat": "51.4740423",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8548673",
+        "name": "Winterbourne Bassett",
+        "osm_id": 5489353,
+        "osm_type": "relation",
+        "place_id": 281668908,
+        "place_rank": 20,
+        "type": "administrative"
+      }
+    ]
+  },
+  "GB|Woodborough Hill, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494421.5318253,
+    "results": [
+      {
+        "address": {
+          "ISO3166-2-lvl4": "GB-ENG",
+          "ISO3166-2-lvl6": "GB-WIL",
+          "country": "United Kingdom",
+          "country_code": "gb",
+          "county": "Wiltshire",
+          "peak": "Woodborough Hill",
+          "postcode": "SN8 4JY",
+          "state": "England",
+          "village": "Woodborough"
+        },
+        "addresstype": "peak",
+        "boundingbox": [
+          "51.3514408",
+          "51.3515408",
+          "-1.8320552",
+          "-1.8319552"
+        ],
+        "class": "natural",
+        "display_name": "Woodborough Hill, Woodborough, Wiltshire, England, SN8 4JY, United Kingdom",
+        "importance": 0.1600449446860456,
+        "lat": "51.3514908",
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "lon": "-1.8320052",
+        "name": "Woodborough Hill",
+        "osm_id": 3969317696,
+        "osm_type": "node",
+        "place_id": 258881564,
+        "place_rank": 18,
+        "type": "peak"
+      }
+    ]
+  },
+  "GB|Yatesbury, nr Calne, Wiltshire, United Kingdom": {
+    "fetched_at": 1777494357.5467699,
+    "results": []
+  }
+}
