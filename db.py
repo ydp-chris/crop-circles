@@ -1,79 +1,51 @@
 """
-db.py — connection layer for the crop_circles schema.
+db.py — Supabase PostgREST client for the crop_circles schema.
 
-Uses psycopg3 with a small connection pool. Reads DATABASE_URL from env.
-Direct Postgres (not PostgREST) because we'll do bulk inserts at high cadence.
+Uses supabase-py with the service_role key. Direct Postgres (psycopg) was
+considered first but the rest of the YDP stack is service_role + PostgREST,
+so we follow that pattern for credential consistency across agents.
 
 Setup:
     pip install -r requirements.txt
-    cp .env.example .env       # then fill in DATABASE_URL
+    cp .env.example .env       # then fill in SUPABASE_URL + SUPABASE_SERVICE_KEY
     python db.py               # smoke test — should print sources + counts
+
+Note: The crop_circles schema must be added to "Exposed schemas" in
+Supabase Dashboard → Project Settings → API before this will work.
 """
 from __future__ import annotations
 
-import atexit
 import os
-from contextlib import contextmanager
-from typing import Any, Iterator, Optional
+from typing import Any, Optional
 from uuid import UUID
 
 import structlog
 from dotenv import load_dotenv
-from psycopg import Connection, sql
-from psycopg.rows import dict_row
-from psycopg.types.json import Jsonb
-from psycopg_pool import ConnectionPool
+from supabase import Client, create_client
 
 load_dotenv()
 log = structlog.get_logger()
 
-DATABASE_URL = os.environ.get("DATABASE_URL")
-if not DATABASE_URL:
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
+
+if not SUPABASE_URL or not SUPABASE_SERVICE_KEY:
     raise RuntimeError(
-        "DATABASE_URL not set. In Supabase: Project Settings → Database → "
-        "Connection string. Use the transaction pooler (port 6543)."
+        "SUPABASE_URL and SUPABASE_SERVICE_KEY must be set. See .env.example."
     )
 
-
-def _configure(conn: Connection) -> None:
-    """Set search_path on every pooled connection so unqualified names resolve."""
-    with conn.cursor() as cur:
-        cur.execute("set search_path to crop_circles, public")
-
-
-_pool = ConnectionPool(
-    DATABASE_URL,
-    min_size=1,
-    max_size=4,
-    configure=_configure,
-    kwargs={"row_factory": dict_row},
-)
-atexit.register(_pool.close)
-
-
-@contextmanager
-def get_conn() -> Iterator[Connection]:
-    """Pooled connection. Commits on clean exit, rolls back on exception."""
-    with _pool.connection() as conn:
-        try:
-            yield conn
-            conn.commit()
-        except Exception:
-            conn.rollback()
-            raise
+_client: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
+db = _client.schema("crop_circles")
 
 
 # ============================================================================
 # sources
 # ============================================================================
 def get_source_id(slug: str) -> UUID:
-    with get_conn() as conn:
-        row = conn.execute(
-            "select id from sources where slug = %s", (slug,)
-        ).fetchone()
-    if not row:
+    res = db.table("sources").select("id").eq("slug", slug).limit(1).execute()
+    if not res.data:
         raise LookupError(f"Source not registered: {slug}")
-    return row["id"]
+    return UUID(res.data[0]["id"])
 
 
 # ============================================================================
@@ -89,54 +61,50 @@ def upsert_source_record(
     parsed_json: Optional[dict[str, Any]] = None,
     http_status: Optional[int] = None,
 ) -> UUID:
-    """Idempotent on (source_id, source_record_id). Updates fields on conflict."""
-    source_id = get_source_id(source_slug)
-    with get_conn() as conn:
-        row = conn.execute(
-            """
-            insert into source_records
-                (source_id, source_record_id, source_url, raw_html, raw_text,
-                 parsed_json, http_status)
-            values (%s, %s, %s, %s, %s, %s, %s)
-            on conflict (source_id, source_record_id) do update set
-                source_url  = excluded.source_url,
-                raw_html    = excluded.raw_html,
-                raw_text    = excluded.raw_text,
-                parsed_json = excluded.parsed_json,
-                http_status = excluded.http_status,
-                scraped_at  = now()
-            returning id
-            """,
-            (
-                source_id, source_record_id, source_url, raw_html, raw_text,
-                Jsonb(parsed_json) if parsed_json is not None else None,
-                http_status,
-            ),
-        ).fetchone()
-    return row["id"]
+    """Idempotent on (source_id, source_record_id)."""
+    payload = {
+        "source_id": str(get_source_id(source_slug)),
+        "source_record_id": source_record_id,
+        "source_url": source_url,
+        "raw_html": raw_html,
+        "raw_text": raw_text,
+        "parsed_json": parsed_json,
+        "http_status": http_status,
+    }
+    res = (
+        db.table("source_records")
+        .upsert(payload, on_conflict="source_id,source_record_id")
+        .execute()
+    )
+    return UUID(res.data[0]["id"])
 
 
 def already_scraped(source_slug: str, source_record_id: str) -> bool:
     """Cheap skip-check for resumable scrapers."""
-    source_id = get_source_id(source_slug)
-    with get_conn() as conn:
-        row = conn.execute(
-            "select 1 from source_records "
-            "where source_id = %s and source_record_id = %s limit 1",
-            (source_id, source_record_id),
-        ).fetchone()
-    return row is not None
+    source_id = str(get_source_id(source_slug))
+    res = (
+        db.table("source_records")
+        .select("id")
+        .eq("source_id", source_id)
+        .eq("source_record_id", source_record_id)
+        .limit(1)
+        .execute()
+    )
+    return bool(res.data)
 
 
 # ============================================================================
 # formations
 # ============================================================================
 def get_formation_by_canonical_id(canonical_id: str) -> Optional[UUID]:
-    with get_conn() as conn:
-        row = conn.execute(
-            "select id from formations where canonical_id = %s", (canonical_id,)
-        ).fetchone()
-    return row["id"] if row else None
+    res = (
+        db.table("formations")
+        .select("id")
+        .eq("canonical_id", canonical_id)
+        .limit(1)
+        .execute()
+    )
+    return UUID(res.data[0]["id"]) if res.data else None
 
 
 def insert_formation(
@@ -153,31 +121,22 @@ def insert_formation(
     n_components: Optional[int] = None,
     notes: Optional[str] = None,
 ) -> UUID:
-    """Insert a new formation. Caller ensures canonical_id uniqueness."""
-    if lat is not None and lng is not None:
-        loc_clause = sql.SQL("st_setsrid(st_makepoint(%s, %s), 4326)::geography")
-        loc_params: tuple = (lng, lat)  # Postgres ST_MakePoint takes (lng, lat)
-    else:
-        loc_clause = sql.SQL("null")
-        loc_params = ()
-
-    q = sql.SQL("""
-        insert into formations
-            (canonical_id, event_date, country, county, nearest_landmark,
-             location, crop_type, diameter_m, n_components, notes)
-        values (%s, %s, %s, %s, %s, {loc}, %s, %s, %s, %s)
-        returning id
-    """).format(loc=loc_clause)
-
-    params = (
-        (canonical_id, event_date, country, county, nearest_landmark)
-        + loc_params
-        + (crop_type, diameter_m, n_components, notes)
-    )
-
-    with get_conn() as conn:
-        row = conn.execute(q, params).fetchone()
-    return row["id"]
+    """Insert via RPC — wraps the PostGIS ST_MakePoint call server-side."""
+    params = {
+        "p_canonical_id": canonical_id,
+        "p_event_date": event_date.isoformat() if event_date else None,
+        "p_country": country,
+        "p_county": county,
+        "p_nearest_landmark": nearest_landmark,
+        "p_lat": lat,
+        "p_lng": lng,
+        "p_crop_type": crop_type,
+        "p_diameter_m": diameter_m,
+        "p_n_components": n_components,
+        "p_notes": notes,
+    }
+    res = db.rpc("cc_insert_formation", params).execute()
+    return UUID(res.data)
 
 
 def link_alias(
@@ -188,35 +147,45 @@ def link_alias(
     is_primary: bool = False,
 ) -> None:
     """Idempotent link between a canonical formation and an archive's record."""
-    source_id = get_source_id(source_slug)
-    with get_conn() as conn:
-        conn.execute(
-            """
-            insert into formation_aliases
-                (formation_id, source_id, source_record_id, source_url, is_primary)
-            values (%s, %s, %s, %s, %s)
-            on conflict (source_id, source_record_id) do nothing
-            """,
-            (formation_id, source_id, source_record_id, source_url, is_primary),
+    payload = {
+        "formation_id": str(formation_id),
+        "source_id": str(get_source_id(source_slug)),
+        "source_record_id": source_record_id,
+        "source_url": source_url,
+        "is_primary": is_primary,
+    }
+    (
+        db.table("formation_aliases")
+        .upsert(
+            payload,
+            on_conflict="source_id,source_record_id",
+            ignore_duplicates=True,
         )
+        .execute()
+    )
 
 
 # ============================================================================
 # Smoke test
 # ============================================================================
 if __name__ == "__main__":
-    with get_conn() as conn:
-        sources = conn.execute(
-            "select slug, name from sources order by slug"
-        ).fetchall()
-        n_form = conn.execute(
-            "select count(*) as n from formations"
-        ).fetchone()["n"]
-        n_rec = conn.execute(
-            "select count(*) as n from source_records"
-        ).fetchone()["n"]
+    sources = (
+        db.table("sources").select("slug,name").order("slug").execute().data
+    )
+    n_form = (
+        db.table("formations")
+        .select("id", count="exact", head=True)
+        .execute()
+        .count
+    )
+    n_rec = (
+        db.table("source_records")
+        .select("id", count="exact", head=True)
+        .execute()
+        .count
+    )
 
-    print(f"Connected to crop_circles schema.")
+    print("Connected to crop_circles schema via PostgREST.")
     print(f"  Sources:        {len(sources)}")
     print(f"  Formations:     {n_form}")
     print(f"  Source records: {n_rec}")
